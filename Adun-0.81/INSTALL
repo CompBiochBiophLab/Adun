@@ -8,6 +8,7 @@ Installation
 
 For the simplest and quickest installation type,
 
+cd Adun-0.81
 make install
 
 This will install Adun into $HOME/GNUstep. 
