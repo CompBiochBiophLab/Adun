@@ -1,0 +1,36 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "addComponent:",
+	    "changeSection:",
+	    "editAsNew:",
+	    "removeComponent:",
+	    "save:",
+	    "validate:"
+	);
+	Super = NSObject;
+    };
+    ULTemplateViewController = {
+	Actions = (
+	    "addComponent:",
+	    "close:",
+	    "changeSection:",
+	    "removeComponent:",
+	    "save:",
+	    "validate:",
+	    "editAsNew:"
+	);
+	Outlets = (
+	    componentTable,
+	    componentDescriptionField,
+	    popUpList,
+	    sectionDescriptionField,
+	    tabView,
+	    templateView,
+	    templateWindow,
+	    templateDisplayView
+	);
+	Super = NSObject;
+    };
+}

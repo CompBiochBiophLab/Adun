@@ -1,0 +1,71 @@
+<!-- This Apple Help template put together by Andy Matuschak
+	http://www.andymatuschak.org
+	andy@andymatuschak.org
+	Version 1.0
+
+	Adapted from the Safari help book--thanks, Apple!
+	Adapted more directly from Pixen's help book.
+	Licensed under MIT. -->
+
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html401/sgml/loosedtd.html">
+	<html>
+	<head>
+		<title>The Database Browser</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="data types, distributed, databases, systems, simulations, templates, data sets">
+		<meta name="description" content="Learn how to use the database browser.">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a name="Data Management"></a>
+				<!-- Specify a category in the anchor above; then you can
+					link to listings of every topic in a given category. -->
+				<a class="bread" href="help:anchor='access' bookID=Adun Help">Adun Help</a>
+				<!-- The above links back to the index page -->
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/icon.png" alt="Adun Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>The Database Browser</h1>
+			</div>
+			<p>Adun stores data in its own application specific databases. The information in these databases is like your music
+			library in iTunes. The database browser is the main way to access this data in Adun and hence it occupies a prominent 
+			position on the left hand side of Adun's main window (see screenshot below)</p>
+			<p>
+			Initially the browser only shows one database, called USER_NAME@localhost where USER_NAME is your user name.
+			However you can add more databases if you want (see links below) and copy and move data between them using the 
+			commands in the Edit menu.</p>
+			<p>
+			To operate on a piece of data simply highlight it in the browser. This makes it the 'active' object. 
+			Adun understands what you can do with the different data types so menu commands become available based on your current selection.
+			Furthermore the commands that are available also depend on the currently active window (the front most one) - 
+			in essence the window checks what you have selected and activates different commands.
+			For example if you select something, open the Analyser using 'Tools->Analsyer' (or bring it to the front if it's already open), and choose 'Object->Load',
+			the analyser will load the selected data.</p>
+			<p>Although the browser is the main way to select data, the same principles apply when you select data anywhere e.g. in a
+			relationship table or in the Analysers loaded objects table.</p>
+			<p style="text-align: center;">
+				<img src="../gfx/Database.png" alt="Browser demo" />
+				<!-- Try to have screenshots on as many pages as you can. -->
+			</p>
+
+			<h2 class="seealso">See also</h2>
+			<p class="seealso">
+				<a href="AdunData.html">Adun's Data Types</a><br />
+				<a href="help:topic_list=Data Management bookID=Adun Help template=css/genlist.html stylesheet=css/genlist_style.css Other=Data Management Topics">Data Management Topics</a>
+				<!-- The above tag links to an auto-generated list of pages
+					in the specified category ("SOMECATEGORY"). Categories
+					are signified by an anchor tag (see earlier in this
+					page). -->
+			</p>
+		</div>
+	</body>
+</html>

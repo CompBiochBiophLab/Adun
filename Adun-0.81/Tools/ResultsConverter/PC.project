@@ -1,0 +1,80 @@
+{
+    CLASS_FILES = (
+	ResultsConverter.m
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    CREATION_DATE = "2005-11-04 16:42:10 +0100";
+    DOCU_FILES = (
+    );
+    FRAMEWORKS = (
+    );
+    HEADER_FILES = (
+	ResultsConverter.h,
+	ULResults.h,
+	ULResultsPlugin.h
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/GNUstep/Tools";
+    LANGUAGE = English;
+    LAST_EDITING = "2005-11-22 17:19:24 +0100";
+    LIBRARIES = (
+	"gnustep-base",
+	adun_components,
+	adun_framework,
+	adun_base,
+	gsl,
+	gslcblas
+    );
+    LINKEROPTIONS = "";
+    LOCALIZED_RESOURCES = (
+    );
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    OBJC_COMPILEROPTIONS = "";
+    OTHER_RESOURCES = (
+	"Info-gnustep.plist",
+	converterOptions.plist
+    );
+    OTHER_SOURCES = (
+	main.m
+    );
+    PC_WINDOWS = {
+	ProjectWindow = "385 391 678 541 0 0  1216 1024 ";
+	ShowToolbar = YES;
+    };
+    PROJECT_AUTHORS = (
+    );
+    PROJECT_COPYRIGHT = "Copyright (C) 200x";
+    PROJECT_COPYRIGHT_DESC = "Released under ...";
+    PROJECT_CREATOR = Michael;
+    PROJECT_DESCRIPTION = "No description available!";
+    PROJECT_GROUP = "No group available!";
+    PROJECT_MAINTAINER = Michael;
+    PROJECT_NAME = ResultsConverter;
+    PROJECT_RELEASE = 0.1;
+    PROJECT_SUMMARY = "No summary available!";
+    PROJECT_TYPE = Tool;
+    PROJECT_URL = "";
+    SEARCH_HEADER_DIRS = (
+    );
+    SEARCH_LIB_DIRS = (
+	"/home/michael",
+	"/home/michael/GNUstep/Library/Libraries",
+	"/home/michael/GNUstep/Library/Libraries",
+	"/home/michael/GNUstep/Library/Libraries",
+	"/usr/local/lib",
+	"/usr/local/lib"
+    );
+    SUBPROJECTS = (
+    );
+    SUPPORTING_FILES = (
+	GNUmakefile.preamble,
+	GNUmakefile,
+	GNUmakefile.postamble
+    );
+    TOOLICON = "";
+    USER_LANGUAGES = (
+	English
+    );
+}

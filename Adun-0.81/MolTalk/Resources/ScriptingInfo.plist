@@ -1,0 +1,27 @@
+{
+    Classes =
+    (
+	MTAtom,
+	MTAlPos,
+	MTChain,
+	MTCoordinates,
+	MTResidue,
+	MTSelection,
+	MTStructure,
+	MTStream,
+	MTFileStream,
+	MTCompressedFileStream,
+	MTMatrix53,
+	MTMatrix44,
+	MTMatrix,
+	MTVector,
+	MTPairwiseStrxAlignment,
+	MTPairwiseSequenceAlignment,
+	MTSubstitutionMatrix,
+	MTStructureFactory,
+	MTChainFactory,
+	MTResidueFactory,
+	MTAtomFactory,
+	MTQuaternion,
+ 	);
+}

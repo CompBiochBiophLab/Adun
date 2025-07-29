@@ -1,0 +1,48 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "applyPlugin:",
+	    "doButtonAction:",
+	    "doButtonThreeAction:",
+	    "doButtonTwoAction:",
+	    "forceFieldDidChange:",
+	    "getStructureFile:",
+	    "pluginDidChange:",
+	    "saveStructure:",
+	    "showFileBrowser:"
+	);
+	Super = NSObject;
+    };
+    ULSystemViewController = {
+	Actions = (
+	    "doButtonAction:",
+	    "close:",
+	    "showFileBrowser:",
+	    "doButtonTwoAction:",
+	    "doButtonThreeAction:",
+	    "forceFieldDidChange:",
+	    "applyPlugin:",
+	    "saveStructure:",
+	    "pluginDidChange:",
+	    "getStructureFile:"
+	);
+	Outlets = (
+	    moleculePathField,
+	    systemWindow,
+	    progressBar,
+	    progressIndicator,
+	    pluginList,
+	    buttonOne,
+	    buttonTwo,
+	    forcefieldLabel,
+	    progressView,
+	    logView,
+	    optionsView,
+	    tabView,
+	    forcefieldList,
+	    buttonThree
+	);
+	Super = NSObject;
+    };
+}

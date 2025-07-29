@@ -1,0 +1,14 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    ULProgressPanel = {
+	Actions = (
+	);
+	Outlets = (
+	    panel,
+	    progressBar,
+	    userInfo,
+	    displayTitle
+	);
+	Super = NSObject;
+    };
+}

@@ -1,0 +1,14 @@
+{
+  NOTE = "Automatically generated, do not edit!";
+  NSExecutable = "ConformationConverter";
+  NSMainNibFile = "";
+  NSPrincipalClass = "ConformationConverter";
+  PluginVersion = "0.8";
+  ULAnalysisPluginInputInformation = (
+    {
+      ULInputObject = AdSimulationData;
+      ULInputObjectMinimumNumber = 1;
+      ULInputObjectMaximumNumber = 1;
+    }
+  );
+}

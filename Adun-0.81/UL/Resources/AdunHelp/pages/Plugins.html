@@ -1,0 +1,79 @@
+<!-- This Apple Help template put together by Andy Matuschak
+	http://www.andymatuschak.org
+	andy@andymatuschak.org
+	Version 1.0
+
+	Adapted from the Safari help book--thanks, Apple!
+	Adapted more directly from Pixen's help book.
+	Licensed under MIT. -->
+
+	<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html401/sgml/loosedtd.html">
+	<html>
+	<head>
+		<title>Plugins</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="analysis, data, energies, plugins">
+		<meta name="description" content="Learn about plugins.">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a name="DataAnalysis"></a>
+				<a name="Systems"></a>
+				<!-- Specify a category in the anchor above; then you can
+					link to listings of every topic in a given category. -->
+				<a class="bread" href="help:anchor='access' bookID=Adun Help">Adun Help</a>
+				<!-- The above links back to the index page -->
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/icon.png" alt="Adun Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>About Plugins</h1>
+			</div>
+			<p>
+			Plugins are small programs that extend Adun by providing new features. 
+			They come in three types, Configuration, Analysis and Controller.
+			</p>
+			<p>
+			Configuration plugins extend the capabilities of the system builder - they usually pre-process the molecular structures
+			input to the builder in some way before the system is created. 
+			An example is the AddHyrogens plugins.
+			</p>
+			<p>
+			Analysis plugins add extra analysis capabilities to Adun's Analyser.
+			There are already many of these to choose from for example EssentialDynamics. 
+			Analysis plugins can either operate on one specific type of Adun data, like Simulations, 
+			or take multiple different Adun objects as input.
+			</p>
+			<p>
+			Controller plugins enhance the abilities of Adun's core simulator. 
+			By default when a simulation is run it just creates a basic molecular dynamics trajectory.
+			Controllers represent higher level protocols which use molecular dynamics trajectories 
+			to gain insight into physical process or to calculate quantities like free-energies.
+			For example a Controller could calculate the free-energy for ligand binding.
+			</p>
+			<p style="text-align: center;">
+				<img src="../gfx/Plugins.png" alt="Choosing an analysis plugin" />
+				<!-- Try to have screenshots on as many pages as you can. -->
+			</p>
+
+			<h2 class="seealso">See also</h2>
+			<p class="seealso">
+				<a href="Builder.html">The System Builder</a><br />
+				<a href="AddingHydrogens.html">Adding Hydrogens</a><br />
+				<a href="help:topic_list=DataAnalysis bookID=Adun Help template=css/genlist.html stylesheet=css/genlist_style.css Other=Data Analysis Topics">Data Analysis Topics</a>
+				<!-- The above tag links to an auto-generated list of pages
+					in the specified category ("SOMECATEGORY"). Categories
+					are signified by an anchor tag (see earlier in this
+					page). -->
+			</p>
+		</div>
+	</body>
+</html>

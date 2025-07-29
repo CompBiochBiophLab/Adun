@@ -1,0 +1,70 @@
+{
+    BUNDLE_EXTENSION = "";
+    CLASS_FILES = (
+	PDBInfo.m
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    CREATION_DATE = "2005-08-01 16:17:23 +0200";
+    DOCU_FILES = (
+    );
+    FRAMEWORKS = (
+    );
+    HEADER_FILES = (
+	PDBInfo.h,
+	ULAnalysePlugin.h
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/adun/Plugins/Analyse";
+    INTERFACES = (
+    );
+    LANGUAGE = English;
+    LAST_EDITING = "2005-11-30 15:04:06 +0100";
+    LIBRARIES = (
+	"gnustep-base",
+	"gnustep-gui"
+    );
+    LINKEROPTIONS = "";
+    LOCALIZED_RESOURCES = (
+    );
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    OBJC_COMPILEROPTIONS = "";
+    OTHER_RESOURCES = (
+    );
+    OTHER_SOURCES = (
+    );
+    PC_WINDOWS = {
+	ProjectWindow = "361 351 707 597 0 0  1216 1024 ";
+	ShowToolbar = YES;
+    };
+    PRINCIPAL_CLASS = PDBInfo;
+    PROJECT_AUTHORS = (
+    );
+    PROJECT_COPYRIGHT = "Copyright (C) 200x";
+    PROJECT_COPYRIGHT_DESC = "Released under ...";
+    PROJECT_CREATOR = Michael;
+    PROJECT_DESCRIPTION = "No description available!";
+    PROJECT_GROUP = "No group available!";
+    PROJECT_MAINTAINER = Michael;
+    PROJECT_NAME = PDBInfo;
+    PROJECT_RELEASE = 0.1;
+    PROJECT_SUMMARY = "No summary available!";
+    PROJECT_TYPE = Bundle;
+    PROJECT_URL = "";
+    SEARCH_HEADER_DIRS = (
+	"/usr/GNUstep/Local/Libraries/Headers"
+    );
+    SEARCH_LIB_DIRS = (
+    );
+    SUBPROJECTS = (
+    );
+    SUPPORTING_FILES = (
+	GNUmakefile.preamble,
+	GNUmakefile,
+	GNUmakefile.postamble
+    );
+    USER_LANGUAGES = (
+	English
+    );
+}

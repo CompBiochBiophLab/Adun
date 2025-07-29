@@ -1,0 +1,74 @@
+#
+#   GNUmakefile.preamble
+#
+#   Project specific makefile variables, and additional
+#
+#   Do not put any GNUmakefile rules in this file, instead they should
+#   be put into GNUmakefile.postamble.
+#
+
+# load platform dependant settings
+-include Defs/$(ARCH).def
+
+ifeq ($(LOCATION),)
+LOCATION = none
+endif
+
+PROJECT_INC = 
+PROJECT_LIB =
+
+safe_environment ?= no
+ifeq ($(safe_environment),no)
+	ADDITIONAL_OBJCFLAGS += -DUNSAFEENV
+else
+	ADDITIONAL_OBJCFLAGS += -DSAFEENV
+endif
+
+# where all installation should go:
+GNUSTEP_INSTALLATION_DOMAIN = USER
+
+#
+# Flags dealing with compiling and linking
+#
+
+# Additional flags to pass to the preprocessor
+ADDITIONAL_CPPFLAGS +=  -DMT_VERSION=\"$(VERSION)\"
+
+# Additional flags to pass to the Objective-C compiler
+ADDITIONAL_OBJCFLAGS += -D $(LOCATION)
+
+# Additional flags to pass to the C compiler
+ADDITIONAL_CFLAGS += -D $(LOCATION)
+
+# Additional LDFLAGS to pass to the linker
+ADDITIONAL_LDFLAGS += $(ARCH_LDFLAGS) $(PROJECT_LIBS)
+
+# Additional include directories the compiler should search
+ADDITIONAL_INCLUDE_DIRS += $(ARCH_INC) $(PROJECT_INC)
+
+# Additional library directories the linker should search
+ADDITIONAL_LIB_DIRS += 
+
+# Additional libraries when linking Objective-C programs
+ADDITIONAL_OBJC_LIBS +=
+
+# Additional libraries when linking tools
+ADDITIONAL_TOOL_LIBS +=
+
+# Additional libraries when linking applications
+ADDITIONAL_GUI_LIBS +=
+
+# Libraries that a shared library depends upon
+#ifeq ($(ARCH),MINGW32_NT-4.0_i686)
+ifeq ($(GNUSTEP_TARGET_OS),mingw32)
+LIBRARIES_DEPEND_UPON += -lgnustep-base -lobjc
+endif
+LIBRARIES_DEPEND_UPON +=
+
+#
+# Flags dealing with installing and uninstalling
+#
+
+# Additional directories to be created during installation
+ADDITIONAL_INSTALL_DIRS +=
+

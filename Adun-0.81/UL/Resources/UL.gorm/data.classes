@@ -1,0 +1,163 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    AppController = {
+	Actions = (
+	    "showPrefPanel:"
+	);
+	Outlets = (
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "addDatabase:",
+	    "analyse:",
+	    "closeBrowser:",
+	    "closeWindow:",
+	    "convert:",
+	    "createAttributeFile:",
+	    "createProcess:",
+	    "createSimulation:",
+	    "createSystem:",
+	    "deselectAllRows:",
+	    "display:",
+	    "displayTemplate:",
+	    "execute:",
+	    "export:",
+	    "exportAs:",
+	    "halt:",
+	    "import:",
+	    "load:",
+	    "loadExternal:",
+	    "newAction:",
+	    "newOptions:",
+	    "newSystem:",
+	    "openAnalyser:",
+	    "orderFrontFontPanel:",
+	    "properties:",
+	    "remove:",
+	    "removeDatabase:",
+	    "restart:",
+	    "save:",
+	    "showFileBrowser:",
+	    "showPrefPanel:",
+	    "showProcessWindow:",
+	    "showSystemWindow:",
+	    "start:",
+	    "startSimulation:",
+	    "viewErrorLog:",
+	    "viewSimulationLog:"
+	);
+	Super = NSObject;
+    };
+    SystemViewController = {
+    };
+    ULDatabaseBrowser = {
+	Actions = (
+	);
+	Outlets = (
+	    browserView,
+	    viewList
+	);
+	Super = NSObject;
+    };
+    ULProcessViewController = {
+	Actions = (
+	    "showProcessWindow:",
+	    "closeWindow:",
+	    "startNewSimulation:"
+	);
+	Outlets = (
+	    processManager,
+	    processWindow,
+	    mainViewController
+	);
+	Super = NSObject;
+    };
+    ULSimulationCreator = {
+	Actions = (
+	    "closeWindow:",
+	    "createProcess:",
+	    "createSimulation:",
+	    "load:",
+	    "displayTemplate:"
+	);
+	Outlets = (
+	    configurationField,
+	    energyField,
+	    externalDataTable,
+	    energyDumpField,
+	    selectHostButton,
+	    simulationNameField,
+	    tabView,
+	    templateField,
+	    window
+	);
+	Super = NSObject;
+    };
+    ULStatusTable = {
+	Actions = (
+	);
+	Outlets = (
+	    statusTable
+	);
+	Super = NSObject;
+    };
+    ULSystemViewContoller = {
+	Actions = (
+	    "createSystem:",
+	    "closeWindow:",
+	    "showSystemWindow:",
+	    "closeBrowser:",
+	    "showFileBrowser:"
+	);
+	Outlets = (
+	    forceField,
+	    plugin,
+	    systemWindow,
+	    mainViewController,
+	    moleculePathField
+	);
+	Super = NSObject;
+    };
+    ViewController = {
+	Actions = (
+	    "showPrefPanel:",
+	    "newOptions:",
+	    "newSystem:",
+	    "display:",
+	    "remove:",
+	    "properties:",
+	    "copy:",
+	    "cut:",
+	    "paste:",
+	    "load:",
+	    "export:",
+	    "halt:",
+	    "execute:",
+	    "restart:",
+	    "start:",
+	    "terminateProcess:",
+	    "openAnalyser:",
+	    "analyse:",
+	    "deselectAllRows:",
+	    "save:",
+	    "convert:",
+	    "addDatabase:",
+	    "removeDatabase:",
+	    "viewErrorLog:",
+	    "viewSimulationLog:"
+	);
+	Outlets = (
+	    modelController,
+	    simulationCreator,
+	    statusTable,
+	    statusWindow,
+	    logOutput,
+	    splashScreenImageView,
+	    splashScreen,
+	    databaseBrowser
+	);
+	Super = NSObject;
+    };
+}

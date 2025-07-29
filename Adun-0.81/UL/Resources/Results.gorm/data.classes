@@ -1,0 +1,50 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "applyCurrentPlugin:",
+	    "dataSetDidChange:",
+	    "outputPluginResults:",
+	    "pluginChanged:",
+	    "reloadResults:",
+	    "save:",
+	    "selectedNewTableItem:",
+	    "showFileBrowser:"
+	);
+	Super = NSObject;
+    };
+    ULAnalyser = {
+	Actions = (
+	    "showFileBrowser:",
+	    "applyCurrentPlugin:",
+	    "close:",
+	    "outputPluginResults:",
+	    "pluginChanged:",
+	    "reloadResults:",
+	    "save:",
+	    "dataSetDidChange:"
+	);
+	Outlets = (
+	    gnuplotInterface,
+	    pluginList,
+	    optionsView,
+	    resultsLog,
+	    window,
+	    loadedObjectsTable,
+	    dataView,
+	    dataSetList,
+	    tabView
+	);
+	Super = NSObject;
+    };
+    ULAnalyserDataSetView = {
+	Actions = (
+	    "selectedNewTableItem:"
+	);
+	Outlets = (
+	    displayList,
+	    resultsTable
+	);
+	Super = NSObject;
+    };
+}

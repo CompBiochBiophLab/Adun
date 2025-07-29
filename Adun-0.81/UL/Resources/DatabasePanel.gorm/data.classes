@@ -1,0 +1,28 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "showAddDatabasePanel:",
+	    "addDatabase:",
+	    "removeDatabase:"
+	);
+	Super = NSObject;
+    };
+    ULDatabaseManager = {
+	Actions = (
+	    "closeDatabasePanel:",
+	    "addDatabase:",
+	    "removeDatabase:",
+	    "showAddDatabasePanel:"
+	);
+	Outlets = (
+	    addClientField,
+	    databaseLocation,
+	    databasePanel,
+	    actionButton,
+	    removeClientField,
+	    tabView
+	);
+	Super = NSObject;
+    };
+}

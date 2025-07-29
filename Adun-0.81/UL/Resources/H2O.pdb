@@ -1,0 +1,4 @@
+HETATM    1  O   HOH     1       0.000   0.000   0.000  1.00  8.85      WAT  O  
+HETATM    2  H1  HOH     1       0.900   0.000   0.000  1.00  8.85      WAT  O  
+HETATM 	  3  H2  HOH     1       0.300   0.850   0.000  1.00  8.85      WAT  O  
+END                                                                             

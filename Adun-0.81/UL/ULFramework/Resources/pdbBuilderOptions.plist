@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//GNUstep//DTD plist 0.9//EN" "http://www.gnustep.org/plist-0_9.xml">
+<plist version="0.9">
+<dict>
+	<key>ChainA</key>
+	<dict>
+		<key>Residues</key>
+		<string></string>
+		<key>Solvent</key>
+		<dict>
+			<key>Choices</key>
+			<array></array>
+			<key>Selection</key>
+			<array></array>
+			<key>Type</key>
+			<string>Multiple</string>
+		</dict>
+		<key>Heterogens</key>
+		<dict>
+			<key>Choices</key>
+			<array></array>
+			<key>Selection</key>
+			<array></array>
+			<key>Type</key>
+			<string>Multiple</string>
+		</dict>
+		<key>Selection</key>
+		<array>
+			<string>Residues</string>
+		</array>
+		<key>Type</key>
+		<string>Multiple</string>
+	</dict>
+	<key>Selection</key>
+	<array></array>
+	<key>Type</key>
+	<string>Multiple</string>
+</dict>
+</plist>

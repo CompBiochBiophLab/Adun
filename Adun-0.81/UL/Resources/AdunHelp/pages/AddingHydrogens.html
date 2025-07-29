@@ -1,0 +1,91 @@
+<!-- This Apple Help template put together by Andy Matuschak
+	http://www.andymatuschak.org
+	andy@andymatuschak.org
+	Version 1.0
+	
+	Adapted from the Safari help book--thanks, Apple!
+	Adapted more directly from Pixen's help book.
+	Licensed under MIT. -->
+	
+<!-- This page differs from the basicPageTemplate in that it gives step-by-step
+	instructions on how to complete a given task. These are great for the users,
+	especially if the steps are presented in a bite-sized fashion. Try to use
+	these more than the basic template. -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html401/sgml/loosedtd.html">
+<html>
+	<head>
+		<title>Adding Hydrogens</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="pdb, force-field, hydrogens">
+		<meta name="description" content="Learn how to create add hydrogens.">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a name="Systems"></a>
+				<a name="support"></a>
+				<!-- Specify a category in the anchor above; then you can
+					link to listings of every topic in a given category. -->
+				<a class="bread" href="help:anchor='access' bookID=Adun Help">Adun Help</a>
+				<!-- The above links back to the index page -->
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/icon.png" alt="Adun Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>Adding Hydrogens</h1>
+			</div>
+				<p>X-ray structures of pdbs normally do not include hydrogen atoms but these are required for correct simulations.
+				This page explains how to use the AddHydrogens plugin to do this.
+				<b>Note:</b> You must have previously installed this plugin and also the
+				 program reduce which it uses to perform the addition. 
+				 See the bottom of <a href="http://cbbl.imim.es/Adun/downloads/plugins/">this page</a> for installation instructions.</p>
+				<!-- Try to keep this text short on a task page. -->
+
+				<p style="text-align: center;">
+					<img src="../gfx/AddHydrogens.png" alt="System creation demo" />
+					<!-- Try to have screenshots on as many pages as you can. -->
+				</p>
+				
+				<div summary="How to build a system" id="taskbox">
+					<p>
+						<strong>To build a system:</strong>
+						<ol>
+							<li>Load a pdb into the System Builder (see <a href="CreatingASystem.html">here</a>)</li>
+							<li>Click the Preprocess tab.</li>
+							<li>Choose the AddHydrogens plugin.</li>
+							<li>Set your desired values for the various options.</li>
+							<ul>
+							<li>See the AddHydrogens README for the more on the various options.</li>
+							</ul>
+							<li>Click Apply.</li>
+							<li>The output pane fills with information on the addition process.</li>
+							<li>The hydrogens are now added. Switch to the Build tab and build your system as normal</li>
+							<ul>
+							<li>To save a version of the pdb with the hydrogens click 'Save Current' .</li>
+							<li>You can change options and apply the plugin as many times as you want before 
+							switching to the Build tab.</li>
+							</ul>
+						</ol>
+					</p>
+				</div>
+
+				<h2 class="seealso">See also</h2>
+				<p class="seealso">
+					<a href="CreatingASystem.html">Creating a System</a><br />
+					<a href="help:topic_list=Systems bookID=Adun Help template=css/genlist.html stylesheet=css/genlist_style.css Other=System Creation Topics">System Creation Topics</a>
+					<!-- The above tag links to an auto-generated list of pages
+						in the specified category ("SOMECATEGORY"). Categories
+						are signified by an anchor tag (see earlier in this
+						page). -->
+				</p>
+			</div>
+		</body>
+	</html>

@@ -1,0 +1,11 @@
+{
+  NSPrincipalClass = "CAlphaDistance";
+  PluginVersion = "0.8";
+  ULAnalysisPluginInputInformation = (
+    {
+      ULInputObject = MTStructure;
+      ULInputObjectMinimumNumber = 1;
+      ULInputObjectMaximumNumber = 1;
+    }
+  );
+}

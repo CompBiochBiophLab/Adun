@@ -1,0 +1,9 @@
+{
+	Description = "Does nothing usefule :-)";
+	DisplayName = "MyController";
+	message = {
+		type = (NSString);
+		value = "I am controlling this simulation";
+		Description = "A random message to be printed";
+		};
+} 

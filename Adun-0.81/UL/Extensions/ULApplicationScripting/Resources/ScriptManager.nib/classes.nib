@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = STTranscript; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {textView = id; window = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {close = id; launch = id; }; 
+            CLASS = ULScriptManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                argField = id; 
+                scriptList = id; 
+                threadButton = id; 
+                threadTable = id; 
+                transcript = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

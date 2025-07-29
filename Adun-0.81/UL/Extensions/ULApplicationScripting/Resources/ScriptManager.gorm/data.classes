@@ -1,0 +1,35 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "launch:",
+	    "dummyIdentifier:"
+	);
+	Super = NSObject;
+    };
+    STTranscript = {
+	Actions = (
+	);
+	Outlets = (
+	    textView,
+	    window
+	);
+	Super = NSObject;
+    };
+    ULScriptManager = {
+	Actions = (
+	    "launch:",
+	    "close:"
+	);
+	Outlets = (
+	    window,
+	    argField,
+	    drawer,
+	    transcript,
+	    scriptList,
+	    threadButton,
+	    threadTable
+	);
+	Super = NSObject;
+    };
+}

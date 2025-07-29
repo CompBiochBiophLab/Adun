@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"> 
+    <channel> 
+        <title>Adun Change Log</title> 
+        <link>http://download.gna.org/adun/appcast.xml</link> 
+        <description>Most recent changes with links to updates.</description> 
+        <language>en</language> 
+        <item> 
+            <title>Version 0.81 release candidate</title> 
+            <description>http://cbbl.imim.es:8080/Adun/downloads/releasenotes/notes.html</description> 
+            <pubDate>Thur, 10 Jan 2009</pubDate> 
+            <enclosure sparkle:version="0.81rc" url="http://gna.org/downloads/adun/Adun-0.81rc.dmg" length="1600000" type="application/octet-stream"/> 
+        </item> 
+    </channel> 
+</rss> 

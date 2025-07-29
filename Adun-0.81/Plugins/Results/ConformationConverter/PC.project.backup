@@ -1,0 +1,69 @@
+{
+    BUNDLE_EXTENSION = .bundle;
+    CLASS_FILES = (
+	ConformationConverter.m
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    CREATION_DATE = "2005-11-04 16:43:29 +0100";
+    DOCU_FILES = (
+    );
+    FRAMEWORKS = (
+    );
+    HEADER_FILES = (
+	ConformationConverter.h,
+	ULResults.h
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/adun/Plugins/Results";
+    INTERFACES = (
+    );
+    LANGUAGE = English;
+    LAST_EDITING = "2005-11-30 15:00:11 +0100";
+    LIBRARIES = (
+	"gnustep-base",
+	"gnustep-gui"
+    );
+    LINKEROPTIONS = "";
+    LOCALIZED_RESOURCES = (
+    );
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    OBJC_COMPILEROPTIONS = "";
+    OTHER_RESOURCES = (
+    );
+    OTHER_SOURCES = (
+    );
+    PC_WINDOWS = {
+	ProjectWindow = "389 352 707 597 0 0  1216 1024 ";
+	ShowToolbar = YES;
+    };
+    PRINCIPAL_CLASS = ConformationConverter;
+    PROJECT_AUTHORS = (
+    );
+    PROJECT_COPYRIGHT = "Copyright (C) 200x";
+    PROJECT_COPYRIGHT_DESC = "Released under ...";
+    PROJECT_CREATOR = Michael;
+    PROJECT_DESCRIPTION = "No description available!";
+    PROJECT_GROUP = "No group available!";
+    PROJECT_MAINTAINER = Michael;
+    PROJECT_NAME = ConformationConverter;
+    PROJECT_RELEASE = 0.1;
+    PROJECT_SUMMARY = "No summary available!";
+    PROJECT_TYPE = Bundle;
+    PROJECT_URL = "";
+    SEARCH_HEADER_DIRS = (
+    );
+    SEARCH_LIB_DIRS = (
+    );
+    SUBPROJECTS = (
+    );
+    SUPPORTING_FILES = (
+	GNUmakefile.preamble,
+	GNUmakefile,
+	GNUmakefile.postamble
+    );
+    USER_LANGUAGES = (
+	English
+    );
+}

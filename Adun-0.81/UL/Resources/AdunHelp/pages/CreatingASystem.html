@@ -1,0 +1,82 @@
+<!-- This Apple Help template put together by Andy Matuschak
+	http://www.andymatuschak.org
+	andy@andymatuschak.org
+	Version 1.0
+	
+	Adapted from the Safari help book--thanks, Apple!
+	Adapted more directly from Pixen's help book.
+	Licensed under MIT. -->
+	
+<!-- This page differs from the basicPageTemplate in that it gives step-by-step
+	instructions on how to complete a given task. These are great for the users,
+	especially if the steps are presented in a bite-sized fashion. Try to use
+	these more than the basic template. -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html401/sgml/loosedtd.html">
+<html>
+	<head>
+		<title>Creating a System</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="pdb, systems, build, force-field, hydrogens">
+		<meta name="description" content="Learn how to create systems.">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a name="Systems"></a>
+				<!-- Specify a category in the anchor above; then you can
+					link to listings of every topic in a given category. -->
+				<a class="bread" href="help:anchor='access' bookID=Adun Help">Adun Help</a>
+				<!-- The above links back to the index page -->
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/icon.png" alt="Adun Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>Creating a System</h1>
+			</div>
+				<p>Systems are one of the required inputs to any simulation based calculation so here's how to make (or <i>build</i>) one.</p>
+				<!-- Try to keep this text short on a task page. -->
+
+				<p style="text-align: center;">
+					<img src="../gfx/CreateSystem.png" alt="System creation demo" />
+					<!-- Try to have screenshots on as many pages as you can. -->
+				</p>
+				
+				<div summary="How to build a system" id="taskbox">
+					<p>
+						<strong>To build a system:</strong>
+						<ol>
+							<li>In the main menu go to Object->New->System. This opens the system builder.</li>
+							<li>Click 'Load' and choose a PDB file.</li>
+							<ul>
+							<li>If you have an internet connection you can type the four letter pdb code of a protein and click 'Load' - Adun will fetch it for you.</li>
+							</ul>
+							<li>Choose the parts of the pdb you want to be in your system from the selection menu.</li>
+							<li>Choose a force-field.</li>
+							<li>Click Create.</li>
+						</ol>
+					</p>
+				</div>
+
+				<h2 class="seealso">See also</h2>
+				<p class="seealso">
+					<a href="Systems.html">Systems</a><br />
+					<a href="AddingHydrogens.html">Adding Hydrogens</a><br />
+					<!-- <a href="BuildProblems.html">The System Builder</a><br /> 
+					<a href="BuildProblems.html">Dealing with Build Problems</a><br /> -->
+					<a href="help:topic_list=Systems bookID=Adun Help template=/css/genlist.html stylesheet=/css/genlist_style.css Other=System Topics">System Topics</a>
+					<!-- The above tag links to an auto-generated list of pages
+						in the specified category ("SOMECATEGORY"). Categories
+						are signified by an anchor tag (see earlier in this
+						page). -->
+				</p>
+			</div>
+		</body>
+	</html>

@@ -1,0 +1,11 @@
+{
+  NSPrincipalClass = "ConformationConverter";
+  PluginVersion = "0.81";
+  ULAnalysisPluginInputInformation = (
+    {
+      ULInputObject = AdSimulationData;
+      ULInputObjectMinimumNumber = 1;
+      ULInputObjectMaximumNumber = 1;
+    }
+  );
+}

@@ -1,0 +1,26 @@
+{
+    Classes =
+    (
+	PDBConfigurationBuilder,
+	ULConfigurationBuilder,
+	ULDatabaseIndex,
+	ULDatabaseSimulationIndex,
+	ULDatabaseInterface,
+	ULFileSystemDatabaseBackend,
+	ULInteractionsBuilder,
+	ULIOManager,
+	ULMerger,
+	ULProcess,
+	ULProcessManager,
+	ULAnalysisManager,
+	ULSimpleMergerDelegate,
+	ULSystemBuilder,
+	ULSystemController,
+	ULTopologyFrameBuilder,
+	ULFunctionScriptingObject,
+	ULTemplate,
+	ULURLDownload,
+	ULServerManager,
+	ULProject
+    );
+}

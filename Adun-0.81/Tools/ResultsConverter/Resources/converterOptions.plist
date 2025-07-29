@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//GNUstep//DTD plist 0.9//EN" "http://www.gnustep.org/plist-0_9.xml">
+<plist version="0.9">
+<dict>
+	<key>Info</key>
+	<dict>
+		<key>RequiredArgs</key>
+		<array>
+			<string>Trajectory</string>
+		</array>
+		<key>OptionalArgs</key>
+		<array>
+			<string>Subsystems</string>
+		</array>
+		<key>OptionDefaults</key>
+		<array>
+			<string>All</string>
+		</array>
+
+	</dict>
+	<key>Energy</key>
+	<dict>
+		<key>RequiredArgs</key>
+		<array>
+			<string>Trajectory</string>
+			<string>Output</string>
+		</array>
+		<key>OptionalArgs</key>
+		<array>
+			<string>Subsystems</string>
+			<string>Start</string>
+			<string>Length</string>
+			<string>Stepsize</string>
+			<string>Terms</string>
+			<string>Unit</string>
+		</array>
+		<key>OptionDefaults</key>
+		<array>
+			<string>All</string>
+			<string>0</string>
+			<string>0</string>
+			<string>1</string>
+			<string>All</string>
+			<string>KCalMol</string>
+		</array>
+	</dict>
+	<key>Configuration</key>
+	<dict>
+		<key>RequiredArgs</key>
+		<array>
+			<string>Trajectory</string>
+		</array>
+		<key>OptionalArgs</key>
+		<array>
+			<string>Subsystems</string>
+			<string>Start</string>
+			<string>Length</string>
+			<string>Stepsize</string>
+		</array>
+		<key>OptionDefaults</key>
+		<array>
+			<string>All</string>
+			<string>1</string>
+			<string>0</string>
+			<string>1</string>
+		</array>
+	</dict>
+</dict>
+</plist>

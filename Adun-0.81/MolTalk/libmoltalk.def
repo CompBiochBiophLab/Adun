@@ -1,0 +1,26 @@
+EXPORTS
+	moltalk_version
+	__objc_class_name_MTAtom
+	__objc_class_name_MTAtomFactory
+	__objc_class_name_MTChain
+	__objc_class_name_MTChainFactory
+	__objc_class_name_MTCompressedFileStream
+	__objc_class_name_MTFileStream
+	__objc_class_name_MTStream
+	__objc_class_name_MTCoordinates
+	__objc_class_name_MTVector
+	__objc_class_name_MTMatrix
+	__objc_class_name_MTMatrix44
+	__objc_class_name_MTMatrix53
+	__objc_class_name_MTAlPos
+	__objc_class_name_MTPDBParser
+	__objc_class_name_MTPairwiseStrxAlignment
+	__objc_class_name_MTPairwiseSequenceAlignment
+	__objc_class_name_MTQuaternion
+	__objc_class_name_MTResidue
+	__objc_class_name_MTResidueFactory
+	__objc_class_name_MTSelection
+	__objc_class_name_MTStructure
+	__objc_class_name_MTStructureFactory
+	__objc_class_name_MTSubstitutionMatrix
+

@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {sectionDidChange = id; setDefault = id; }; 
+            CLASS = ULPreferences; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                coreDebugLevels = id; 
+                coreMinimisation = id; 
+                coreOutputMemoryStatistics = id; 
+                coreRedirectOutput = id; 
+                coreTraceMemory = id; 
+                preferencesTabView = id; 
+                preferencesWindow = id; 
+                sectionList = id; 
+                ulDebugLevels = id; 
+                ulGnuplotPath = id; 
+                ulPDBDirectory = id; 
+                ulTheme = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

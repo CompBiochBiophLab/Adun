@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {addAnnotation = id; close = id; }; 
+            CLASS = ULPropertiesPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                annotationInput = id; 
+                annotations = id; 
+                cancelButton = id; 
+                outlineView = id; 
+                referenceTable = id; 
+                saveButton = id; 
+                tabView = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

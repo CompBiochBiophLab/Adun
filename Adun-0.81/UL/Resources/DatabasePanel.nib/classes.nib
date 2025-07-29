@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {addDatabase = id; removeDatabase = id; showAddDatabasePanel = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addDatabase = id; 
+                closeDatabasePanel = id; 
+                removeDatabase = id; 
+                showAddDatabasePanel = id; 
+            }; 
+            CLASS = ULDatabaseManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                actionButton = id; 
+                addClientField = id; 
+                databaseLocation = id; 
+                databasePanel = id; 
+                removeClientField = id; 
+                tabView = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

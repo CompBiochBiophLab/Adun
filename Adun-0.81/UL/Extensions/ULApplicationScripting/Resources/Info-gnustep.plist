@@ -1,0 +1,5 @@
+{
+  NSExecutable = "ULApplicationScripting";
+  NSMainNibFile = "ScriptManager.gorm";
+  NSPrincipalClass = "ULScriptingManager";
+}

@@ -1,0 +1,20 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "newAction:"
+	);
+	Super = NSObject;
+    };
+    ULExportPanel = {
+	Actions = (
+	    "close:"
+	);
+	Outlets = (
+	    boundingBox,
+	    matrixView,
+	    panel
+	);
+	Super = NSObject;
+    };
+}

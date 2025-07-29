@@ -1,0 +1,225 @@
+UserLand Version 0.54 - 15/09/06
+
+Analysis Infrastructure
+
+	* New analysis framework defined by ULAnalysisPlugin and handled by ULAnalysisManager.
+	  o ULAnalysisPlugin interface replaces ULResultsPlugin and ULAnalysePlugin interfaces.
+	  o Plugins can now supply data on the type and number of their inputs.
+	  o ULAnalysisManager uses this information to decide which plugins are available based on the data selected by the user in the Analyser.
+	  o Plugin directory structure updated - Results and Analyse directories replaced by Analysis directory where all analysis plugins will be placed.
+	* Previous pdb analysis methods have been deprecated.
+	  o Load External command allows pdbs to be loaded into the Analyser.
+	  o Analysis of pdbs now occurs through the same mechanism as simulation analysis.
+
+
+Import/Export
+
+	* Preliminary implementation of import/export factilities
+	  o Database objects can be exported as binary files.
+	  o File produced in this way can be imported into the program.
+
+
+Input/Output References
+
+	* ULFramework classes now track input/output references.
+	* When model objects are created they are supplied with references to the objects they were generated from (input references).
+	* When such an object is saved references to it are added to the objects that  generated it (output references).
+	* When an object is deleted all output references to it are removed.
+	* note: At the moment these references are not visible to users. Display of these references will be added in a later version.
+
+
+UserLand Version 0.53 - 07/08/06
+
+Controller Generated Data Sets
+
+	* When a simulation finished UL retrieves any controller generated data sets and adds them to the file system database.
+	* When a user analyses a running simulation any controller data sets it has generated are retrieved and added to the analyser.
+
+
+Other Changes
+
+	* Refactored the protocols which define the methods that are used in AdunServer - UL communication.
+	  o ULServerInterface - UL to AdunServer communication
+	  o ULClientInterface - AdunServer to UL communication
+	* Updated method of creating simulation data storage to reflect changes in Kernel v0.10.4.
+	* Bug Fixes.
+
+
+UserLand Version 0.52 - 27/07/06
+
+Important Notes
+
+	* UL 0.52 is only compatible with  Kernel 0.10.3 or higher.
+	* It is also incompatible with the versions of EnergyConverter and ConformationConverter distributed with Adun0.5. They must be replaced by the latest version available from the plugin download page.
+	* The ability to add simulations to the database means previously stored simulations are not accessible through this version. However by Adun 0.6 you will be able to  import  them  into the new database.
+
+
+Analyser
+
+	* Results Interface renamed Analyser.
+	* Objects can be loaded into the analyser from the database or status table.
+	* It can contain multiple objects simultaneously.
+	* Users can select which loaded objects to apply plugins to or to display.
+	  o Note: Currently plugins can only be applied to single simulations.  In future releases analysis of data sets, systems and combinations of objects will be possible. Analysis of pdbs will also be incorporated.
+	* Plugin options updated automatically as selected object changes.
+	  o Note: Later the available plugin list will also change as the selection changes.
+	* Can choose to save data returned by plugins i.e. data sets,   to the database using Save command (Object menu).
+
+
+General
+
+	* Simulation results are now stored in the database and are accesible through the browser.
+	* Can also store and manipulate data sets - A collection of tables output by a plugin.
+	* Display menu item shows object contents to the user. At the moment you can view:
+	  o Data sets - shown in Analyser
+	  o Options (in database or of a waiting process)
+	* New ULPasteboard class allows the various UL tools to easily provide data to each other.
+	  o  Once you select an object anywere in the interface it becomes the target of the currently active tool e.g. the database browser, analyser, status table etc. which determines what actions are available.
+	* More robust menu item validation depending on current selection.
+
+
+ULFramework Library Changes
+
+	* Many  changes to enable use of multiple databases for object storage, simultaneously  e.g. file based and SQL
+	  o Backends for various database types can be created.
+	  o All backend instances are managed by ULDatabaseInterface class.
+	* ULResults bundle deprecated - Merged into ULFramework library as ULSimulation.
+	* ULModelObject and ULMatrix deprecated. Now uses AdModelObject and AdDataMatrix from the AdunKernel library.
+	* ULResultsManager renamed ULAnalysisManager - It will handle the application of plugins to multiple inputs.
+
+
+Miscellaneous
+
+	* Many Bug-Fixes
+	* All windows now centered when opened.
+
+UserLand Version 0.51 - 21/06/06
+
+Database Browser
+
+	* Initial implementation of a database browser allowing you to browse the database from the main window
+	* Browser displays saved options and systems.
+	* Deprecates previous table view of the database.
+
+
+Menu Restructuring
+
+	* Menu structure changed to be more "object-centric" - Each item in the database or process table is an object and can be selected to be operated on.
+	* Menu commands are activated based on the current selection.
+	* Object  Menu allows you to:
+	  o Create new systems, simulations and options.
+	  o View the properties of selected objects in the database or process table.
+	  o Display options.
+	  o Load selected objects for simulation creation or analysis.
+	* Edit Menu (limited functionality as of this release).
+	  o Remove selected objects from database or process table.
+	  o Clear selections.
+
+
+Other Improvements
+
+	* Refactored option display code to reduce code entanglement (task#2995).
+	* Updated to use new Kernel library structure.
+	  o Note: This makes UL 0.51 incompatible with Kernel versions prior to 0.10.2
+	* Results processing related bug fixes.
+
+
+UserLand Version 0.45 - 12/04/06
+
+This is the UL version for Adun 0.5
+
+	* Now maps detected old style hydrogen names to new ones overcoming the problem noted in v0.44 (see below)
+	* Can provide temporary directories for plugins to work in.
+	* Fixed critical memory leak related to ULResults.
+	* Many other bug fixes and minor improvements.
+
+
+UserLand Version 0.44 - 04/04/06
+
+Improper Torsions
+
+	* UL now builds a list of the improper torsions when generating topology information from pdbs (see Kernel0.94 release notes for more information).
+
+Enzymix Force Field
+
+	* The topology section of this force field has been updated so the listed PDB atom names for amino acid hydrogens conform to the current naming convention (in force after 1999). See here for more information.
+		o note: Unfortunately most programs (including molprobity) that add hydrogens use the old naming scheme. We are in the process of adding code that will detect old names and convert them to new ones but for the moment many pdbs will have to be manually edited (unless they're post 2000 NMR structures).
+
+
+UserLand Version 0.43 - 30/03/06
+
+New Progress Display
+
+	* The progress of trajectory loading and plugin application is now displayed via a progress panel.
+	* The panel displays the "percentage complete" of the task as it proceeds as well as messages indicating what is occurring.
+	* Loading and results analysis are performed in a separate thread. This avoids locking down of the interface and sometimes the entire desktop when loading large simulations or performing complex analysis.
+	* Previously when performing a long calculation it was impossible to tell if the application was "dead" or still operating. The progress panel removes this problem.
+
+
+Multiple Return Values from Plugins
+
+	* Results plugins can now return multiple tables of data. Users can select which table to display via the new display list in the analysis window.
+	* This is made possible by a new ULResultsPlugin interface based on an improved ULMatrix class.
+	* For example it is now possible to easily switch between solvent, solute and interaction energies or return both eigenvalues and eigenvectors in an essential dynamics calculation.
+
+
+Other improvements
+
+	* UL0.43 is compatible with gnustep-startup-0.15 whereas previous versions currently are not.
+	* Note: The most recent kernel version (0.93) is still incompatible with gnustep-startup-0.15 so upgrade is not advised.
+	* Improved makefiles.
+	* Many bug fixes - These fixes have made a great impact on the stability and usability of the results interface.
+	* Fixed bugs 5418, 5530, 5547, 5493, 5603 (see project page for more information).
+
+
+UserLand Version 0.42 - 20/03/06
+
+Improved Integration with AdunServer
+
+	* UL searches for a locally running AdunServer on startup and prompts the user if it can't find one. 
+	  The program can then start the server if the user indicates.
+	* AdunServer crashes are now detected and handled. The user is notified and the simulation run by the 
+	  crashed server are marked as "disconnected". Information on how to handle the crash are printed to the log view.
+	* If there is no server running on the localhost when you try to start a simulation, the program
+	  will ask the user if it should start one.
+
+
+Improved Handling of Simulation Termination
+
+	* The user is now alerted, by means of a panel, when a simulation terminates unexpectedly.
+	* The cause of the error is displayed in the log view along with a detailed description and a
+	  recovery suggestion if available.
+
+
+Many Bug Fixes
+
+	* Fixes for bugs 5401, 5402, 5403, 5425, 5449, 5461 & 5531
+	* See the bug list on the the project page for more information. (Filter for "Closed")
+
+
+UserLand Version 0.41 - 07/03/06
+
+New Create System Interface
+
+	* Choose which parts of the pdb are to be used to create the simulation system through the new options display.
+	* The log view displays the build process along with errors and suggestions for recovering from them.
+	* The preprocess tab allows you to load plugins which manipulate the pdb stucture before building the simulation system.
+	* Preprocessing uses the same log and options view as Build to display plugin options and results.
+
+ 
+Improved Build Procedure
+
+	* Critical and noncritical errors.
+
+	* Critical errors indicate build failure.
+	* Noncritical errors are displayed along with possible recovery suggestions. The user can choose to 
+	  ignore the errors and continue or to cancel the build and attempt to fix the pdb.
+	* Critical errors include - unidentified residues and unknown bond or angle interactions.
+	* Non critical errors include - missing or extra atoms in the pdb and unknown proper torsion interactions.
+
+
+New Analyse PDB Interface
+
+	* Utilises the new interface for creating systems.
+	* The log view displays the results of the analyses while the outline view displays the plugin options.
+

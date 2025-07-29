@@ -1,0 +1,24 @@
+Prerequisites
+=============
+
+install first GNUstep: https://www.gnustep.org/resources/downloads.html
+
+Installation
+============
+
+For the simplest and quickest installation type,
+
+make install
+
+This will install Adun into $HOME/GNUstep. 
+After starting Adun for the first time (type 'openapp UL') you can do the following to install the provided plugins, 
+
+cd Adun-0.81/Plugins 
+make
+
+Once the plugins are installed you can also install the command line tools (these use certain plugins),
+
+cd Adun-0.81/Tools/
+make install
+
+That's it. 

@@ -1,0 +1,12 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = ULProgressPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {displayTitle = id; panel = id; progressBar = id; userInfo = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

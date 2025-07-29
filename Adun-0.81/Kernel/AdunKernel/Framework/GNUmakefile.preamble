@@ -1,0 +1,19 @@
+# Additional flags to pass to the preprocessor
+ADDITIONAL_CPPFLAGS += 
+
+# Additional flags to pass to Objective C compiler
+ADDITIONAL_OBJCFLAGS += -std=gnu89
+
+# Additional flags to pass to C compiler
+ADDITIONAL_CFLAGS += 
+
+# Additional flags to pass to the linker
+ADDITIONAL_LDFLAGS +=  
+
+# Additional include directories the compiler should search
+ADDITIONAL_INCLUDE_DIRS += -I$(GSL_INCLUDE_DIR)
+
+# Additional library directories the linker should search
+ADDITIONAL_LIB_DIRS += $(GSL_LIB_DIR)
+
+ADDITIONAL_INSTALL_DIRS = $(GNUSTEP_HEADERS)/Framework/Protocols 

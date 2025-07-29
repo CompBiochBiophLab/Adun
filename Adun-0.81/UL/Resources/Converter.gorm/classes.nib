@@ -1,0 +1,37 @@
+{
+    IBClasses = (
+	{
+	    ACTIONS = {
+		close = id;
+		convert = id;
+		open = id;
+		performConversion = id;
+		selectionDidChange = id;
+	    };
+	    CLASS = ULConverter;
+	    LANGUAGE = ObjC;
+	    OUTLETS = {
+		convertButton = id;
+		frameNumberField = id;
+		simulationDetailsView = id;
+		systemNameField = id;
+		systemsField = id;
+		tabView = id;
+		totalFramesField = id;
+		window = id;
+	    };
+	    SUPERCLASS = NSObject;
+	},
+	{
+	    ACTIONS = {
+		convert = id;
+		performConversion = id;
+		selectionDidChange = id;
+	    };
+	    CLASS = FirstResponder;
+	    LANGUAGE = ObjC;
+	    SUPERCLASS = NSObject;
+	}
+    );
+    IBVersion = 1;
+}

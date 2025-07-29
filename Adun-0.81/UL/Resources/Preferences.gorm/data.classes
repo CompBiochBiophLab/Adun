@@ -1,0 +1,31 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "sectionDidChange:",
+	    "setDefault:"
+	);
+	Super = NSObject;
+    };
+    ULPreferences = {
+	Actions = (
+	    "setDefault:",
+	    "sectionDidChange:"
+	);
+	Outlets = (
+	    coreTraceMemory,
+	    coreOutputMemoryStatistics,
+	    coreRedirectOutput,
+	    coreDebugLevels,
+	    ulPDBDirectory,
+	    ulTheme,
+	    ulDebugLevels,
+	    preferencesWindow,
+	    preferencesTabView,
+	    sectionList,
+	    coreMinimisation,
+	    ulGnuplotPath
+	);
+	Super = NSObject;
+    };
+}

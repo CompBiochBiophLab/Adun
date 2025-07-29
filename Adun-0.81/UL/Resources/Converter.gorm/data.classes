@@ -1,0 +1,31 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "convert:",
+	    "selectionDidChange:",
+	    "performConversion:"
+	);
+	Super = NSObject;
+    };
+    ULConverter = {
+	Actions = (
+	    "close:",
+	    "convert:",
+	    "performConversion:",
+	    "open:",
+	    "selectionDidChange:"
+	);
+	Outlets = (
+	    frameNumberField,
+	    systemNameField,
+	    simulationDetailsView,
+	    systemsField,
+	    tabView,
+	    window,
+	    totalFramesField,
+	    convertButton
+	);
+	Super = NSObject;
+    };
+}

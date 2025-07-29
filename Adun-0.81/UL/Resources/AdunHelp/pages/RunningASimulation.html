@@ -1,0 +1,81 @@
+<!-- This Apple Help template put together by Andy Matuschak
+	http://www.andymatuschak.org
+	andy@andymatuschak.org
+	Version 1.0
+	
+	Adapted from the Safari help book--thanks, Apple!
+	Adapted more directly from Pixen's help book.
+	Licensed under MIT. -->
+	
+<!-- This page differs from the basicPageTemplate in that it gives step-by-step
+	instructions on how to complete a given task. These are great for the users,
+	especially if the steps are presented in a bite-sized fashion. Try to use
+	these more than the basic template. -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html401/sgml/loosedtd.html">
+<html>
+	<head>
+		<title>Running a Simulation</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="simulations, templates, systems, hosts, processes, checkpointing, interaction">
+		<meta name="description" content="Learn how to create simulations">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a name="Simulations"></a>
+				<!-- Specify a category in the anchor above; then you can
+					link to listings of every topic in a given category. -->
+				<a class="bread" href="help:anchor='access' bookID=Adun Help">Adun Help</a>
+				<!-- The above links back to the index page -->
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/icon.png" alt="Adun Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>Running a Simulation</h1>
+			</div>
+				<p>Once you've created a simulation you'll want to start it going - read on.</p>
+				<!-- Try to keep this text short on a task page. -->
+
+				<p style="text-align: center;">
+					<img src="../gfx/RunningASimulation.png" alt="Running a simulation demo" />
+					<!-- Try to have screenshots on as many pages as you can. -->
+				</p>
+				
+				<div summary="How to create a simulation" id="taskbox">
+					<p>
+						<strong>To start a simulation:</strong>
+						<ol>
+							<li>First create a simulation (see Creating a Simulation for more information)</li>
+							<li>Select the created simulation in the process table</li>
+							<li>Select 'Process->Start'. The process status will change from 'Waiting' to 'Running'</li>
+							<ul>
+							<li>You can control the process using the other commands in the Process menu - try the Status command</li>
+							</ul>
+							<li>Once the simulation is finished an entry for it will appear in the database. 
+							However you can analyse the running simulation by selecting the entry in the process table and clicking
+							Object->Analyse.</li> 
+						</ol>
+					</p>
+				</div>
+
+				<h2 class="seealso">See also</h2>
+				<p class="seealso">
+					<a href="CreatingASimulation.html">Creating a Simulation</a><br />
+					<a href="Analyser.html">The Analyser</a><br />
+					<a href="help:topic_list=Simulations bookID=Adun Help template=css/genlist.html stylesheet=css/genlist_style.css Other=Simulation Topics">Simulation Topics</a>
+					<!-- The above tag links to an auto-generated list of pages
+						in the specified category ("SOMECATEGORY"). Categories
+						are signified by an anchor tag (see earlier in this
+						page). -->
+				</p>
+			</div>
+		</body>
+	</html>

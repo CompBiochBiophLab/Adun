@@ -1,0 +1,29 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "addAnnotation:",
+	    "loadOptions:",
+	    "newOptions:"
+	);
+	Super = NSObject;
+    };
+    ULPropertiesPanel = {
+	Actions = (
+	    "loadOptions:",
+	    "close:",
+	    "addAnnotation:"
+	);
+	Outlets = (
+	    window,
+	    tabView,
+	    saveButton,
+	    cancelButton,
+	    outlineView,
+	    annotationInput,
+	    annotations,
+	    referenceTable
+	);
+	Super = NSObject;
+    };
+}

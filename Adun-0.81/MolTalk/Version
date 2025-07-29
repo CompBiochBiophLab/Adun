@@ -1,0 +1,11 @@
+# The Version of libmoltalk
+#
+# this is being included in all Makefiles
+
+MAJOR_VERSION=3
+MINOR_VERSION=0
+SUBMINOR_VERSION=1
+VERSION=${MAJOR_VERSION}.${MINOR_VERSION}.${SUBMINOR_VERSION}
+
+#
+# end.

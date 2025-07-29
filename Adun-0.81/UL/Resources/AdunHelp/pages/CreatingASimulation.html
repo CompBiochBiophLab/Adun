@@ -1,0 +1,97 @@
+<!-- This Apple Help template put together by Andy Matuschak
+	http://www.andymatuschak.org
+	andy@andymatuschak.org
+	Version 1.0
+	
+	Adapted from the Safari help book--thanks, Apple!
+	Adapted more directly from Pixen's help book.
+	Licensed under MIT. -->
+	
+<!-- This page differs from the basicPageTemplate in that it gives step-by-step
+	instructions on how to complete a given task. These are great for the users,
+	especially if the steps are presented in a bite-sized fashion. Try to use
+	these more than the basic template. -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html401/sgml/loosedtd.html">
+<html>
+	<head>
+		<title>Creating a Simulation</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="simulations, templates, systems, hosts, processes, checkpointing">
+		<meta name="description" content="Learn how to create simulations">
+		<link media="all" rel="stylesheet" href="../css/topicPage.css" />
+	</head>
+	<body>
+		<div id="banner">
+			<div id="machelp">
+				<a name="Simulations"></a>
+				<!-- Specify a category in the anchor above; then you can
+					link to listings of every topic in a given category. -->
+				<a class="bread" href="help:anchor='access' bookID=Adun Help">Adun Help</a>
+				<!-- The above links back to the index page -->
+			</div>
+			<div id="index">
+				<a class="leftborder" href="index.html">Index</a>
+			</div>
+		</div>
+		<div id="mainbox">
+			<div id="caticon">
+				<img class="icon" src="../gfx/icon.png" alt="Adun Icon" />
+			</div>
+			<div id="pagetitle">
+				<h1>Creating a Simulation</h1>
+			</div>
+				<p>Simulations form the core of what Adun does. This page explains how to create one.</p>
+				<!-- Try to keep this text short on a task page. -->
+
+				<p style="text-align: center;">
+					<img src="../gfx/CreateSimulation.png" alt="Simulation creation demo" />
+					<!-- Try to have screenshots on as many pages as you can. -->
+				</p>
+				
+				<div summary="How to create a simulation" id="taskbox">
+					<p>
+						<strong>To create a simulation:</strong>
+						<ol>
+							<li>In the main menu go to Object->New->Simulation. This opens the "Create Simulation" window.</li>
+							<li>With the General tab shown:</li>
+							<ol>
+							<li>Give the simulation a name.</li>
+							<li>Choose a template for the simulation in the database browser.</li>
+							<li>Click 'Load Data' in the "Create Simulation" window. The template will be loaded.</li>
+							<ul>
+							<li>You can edit some of the template options by clicking 'Show Template'.</li>
+							</ul>
+							</ol>
+							<li>Change to the 'Input Data' tab. For each input slot in the input table:</li>
+							<ol>
+							<li>Select the system to put in that slot from the database browser.</li>
+							</li>
+							<li>Click 'Load Data'. The chosen system will be loaded into the selected slot.</li>
+							</ol>
+							<li>Change to the 'Checkpointing tab and set the intervals at which you want data to be collected (in terms of simulation steps).</li>
+							<ul>
+							<li>The 'Host' tab isn't used yet but in the near future you'll be able to choose a remote host to run the simulation on using it.</li>
+							</ul>
+							<li>Once you're happy with the settings click 'Create Process'. An entry for the simulation will then appear in the 
+							Process table.</li>
+							<li>For information on starting and interacting with the simulation click the <i>Running A Simulation</i> link below.
+							</li> 
+						</ol>
+					</p>
+				</div>
+
+				<h2 class="seealso">See also</h2>
+				<p class="seealso">
+					<a href="RunningASimulation.html">Running a Simulation</a><br />
+					<a href="Simulations.html">Simulations</a><br />
+					<a href="Templates.html">Templates</a><br />
+					<a href="help:topic_list=Simulations bookID=Adun Help template=css/genlist.html stylesheet=css/genlist_style.css Other=Simulation Topics">Simulation Topics</a>
+					<!-- The above tag links to an auto-generated list of pages
+						in the specified category ("SOMECATEGORY"). Categories
+						are signified by an anchor tag (see earlier in this
+						page). -->
+				</p>
+			</div>
+		</body>
+	</html>

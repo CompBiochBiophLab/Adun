@@ -1,0 +1,14 @@
+AdunServer 0.4 - 20/03/06
+
+	* Now uses message ports by default. In this mode the server only supports 
+	  intrauser/intrahost communications i.e. all distributed simulation support is disabled.
+	* This removes some limitiations present in Adun v 0.4 -
+		o Multilple users can now run AdunServer,  and hence simulations, on the same
+		  machine.
+		o AdunServer no longer requires the program "gdomap" to be running. 
+		  (gdomap handles interhost communication)
+		o Implementation of distributed simulation will continue. When it is useable
+		  an option will be provided to allow users to choose which mode to run the
+		  server in.
+	* Improved relaying of error messages from the kernel to the interface.
+	* Fixed bugs 5401 & 5403.

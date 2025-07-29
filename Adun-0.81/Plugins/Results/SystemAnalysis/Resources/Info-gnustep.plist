@@ -1,0 +1,13 @@
+{
+  NSExecutable = "SystemAnalysis";
+  NSMainNibFile = "";
+  NSPrincipalClass = "SystemAnalysis";
+  PluginVersion = "0.2";
+  ULAnalysisPluginInputInformation = (
+    {
+      ULInputObject = AdDataSource;
+      ULInputObjectMinimumNumber = 1;
+      ULInputObjectMaximumNumber = 1;
+    }
+  );
+}

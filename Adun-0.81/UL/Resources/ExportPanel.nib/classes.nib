@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {newAction = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {close = id; }; 
+            CLASS = ULExportPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {boundingBox = id; matrixView = id; panel = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

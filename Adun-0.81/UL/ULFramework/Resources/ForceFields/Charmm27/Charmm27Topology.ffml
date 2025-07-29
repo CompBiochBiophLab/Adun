@@ -1,0 +1,3477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topologyfile xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <head>
+    <forcefield>Charmm</forcefield>
+  </head>
+  <body>
+    <moleculeclass name="Biomolecules" type="mixed">
+      <molecule name="ALA">
+        <atomlist numberofatoms="10">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB1</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="8" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="9" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="10" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="9">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="9"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="9"/>
+      </molecule>
+      <molecule name="ARG">
+        <atomlist numberofatoms="24">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="CT2" partialcharge="0.200000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD3</externalname>
+          </atom>
+          <atom index="14" name="NC2" partialcharge="-0.700000">
+            <externalname source="IUPAC">NE</externalname>
+          </atom>
+          <atom index="15" name="HC" partialcharge="0.440000">
+            <externalname source="IUPAC">HE</externalname>
+          </atom>
+          <atom index="16" name="C" partialcharge="0.640000">
+            <externalname source="IUPAC">CZ</externalname>
+          </atom>
+          <atom index="17" name="NC2" partialcharge="-0.800000">
+            <externalname source="IUPAC">NH1</externalname>
+          </atom>
+          <atom index="18" name="HC" partialcharge="0.460000">
+            <externalname source="IUPAC">HH11</externalname>
+          </atom>
+          <atom index="19" name="HC" partialcharge="0.460000">
+            <externalname source="IUPAC">HH12</externalname>
+          </atom>
+          <atom index="20" name="NC2" partialcharge="-0.800000">
+            <externalname source="IUPAC">NH2</externalname>
+          </atom>
+          <atom index="21" name="HC" partialcharge="0.460000">
+            <externalname source="IUPAC">HH21</externalname>
+          </atom>
+          <atom index="22" name="HC" partialcharge="0.460000">
+            <externalname source="IUPAC">HH22</externalname>
+          </atom>
+          <atom index="23" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="24" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="23">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="14"/>
+          <connection atomoneindex="14" atomtwoindex="16"/>
+          <connection atomoneindex="16" atomtwoindex="20"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="23"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="17" atomtwoindex="18"/>
+          <connection atomoneindex="17" atomtwoindex="19"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+          <connection atomoneindex="20" atomtwoindex="22"/>
+          <connection atomoneindex="23" atomtwoindex="24"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="23"/>
+      </molecule>
+      <molecule name="ASN">
+        <atomlist numberofatoms="14">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CC" partialcharge="0.550000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="O" partialcharge="-0.550000">
+            <externalname source="IUPAC">OD1</externalname>
+          </atom>
+          <atom index="10" name="NH2" partialcharge="-0.620000">
+            <externalname source="IUPAC">ND2</externalname>
+          </atom>
+          <atom index="11" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">HD21</externalname>
+          </atom>
+          <atom index="12" name="H" partialcharge="0.300000">
+            <externalname source="IUPAC">HD22</externalname>
+          </atom>
+          <atom index="13" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="14" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="13">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="13"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="10" atomtwoindex="12"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="13"/>
+      </molecule>
+      <molecule name="ASP">
+        <atomlist numberofatoms="12">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.280000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CC" partialcharge="0.620000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="OC" partialcharge="-0.760000">
+            <externalname source="IUPAC">OD1</externalname>
+          </atom>
+          <atom index="10" name="OC" partialcharge="-0.760000">
+            <externalname source="IUPAC">OD2</externalname>
+          </atom>
+          <atom index="11" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="12" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="11">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="11"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="11"/>
+      </molecule>
+      <molecule name="CYS">
+        <atomlist numberofatoms="11">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.110000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="S" partialcharge="-0.230000">
+            <externalname source="IUPAC">SG</externalname>
+          </atom>
+          <atom index="9" name="HS" partialcharge="0.160000">
+            <externalname source="IUPAC">HG</externalname>
+          </atom>
+          <atom index="10" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="11" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="10">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="10"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="10"/>
+      </molecule>
+      <molecule name="GLN">
+        <atomlist numberofatoms="17">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="CC" partialcharge="0.550000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="12" name="O" partialcharge="-0.550000">
+            <externalname source="IUPAC">OE1</externalname>
+          </atom>
+          <atom index="13" name="NH2" partialcharge="-0.620000">
+            <externalname source="IUPAC">NE2</externalname>
+          </atom>
+          <atom index="14" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">HE21</externalname>
+          </atom>
+          <atom index="15" name="H" partialcharge="0.300000">
+            <externalname source="IUPAC">HE22</externalname>
+          </atom>
+          <atom index="16" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="17" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="16">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="16"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="13" atomtwoindex="15"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="16"/>
+      </molecule>
+      <molecule name="GLU">
+        <atomlist numberofatoms="15">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.280000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="CC" partialcharge="0.620000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="12" name="OC" partialcharge="-0.760000">
+            <externalname source="IUPAC">OE1</externalname>
+          </atom>
+          <atom index="13" name="OC" partialcharge="-0.760000">
+            <externalname source="IUPAC">OE2</externalname>
+          </atom>
+          <atom index="14" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="15" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="14">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="14"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="14"/>
+      </molecule>
+      <molecule name="GLT">
+        <atomlist numberofatoms="18">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.280000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="CC" partialcharge="0.620000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="12" name="OC" partialcharge="-0.760000">
+            <externalname source="IUPAC">OE1</externalname>
+          </atom>
+          <atom index="13" name="OC" partialcharge="-0.760000">
+            <externalname source="IUPAC">OE2</externalname>
+          </atom>
+          <atom index="14" name="CC" partialcharge="0.550000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="15" name="O" partialcharge="-0.550000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="16" name="NH2" partialcharge="-0.620000">
+            <externalname source="IUPAC">NT</externalname>
+          </atom>
+          <atom index="17" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">2H</externalname>
+          </atom>
+          <atom index="18" name="H" partialcharge="0.300000">
+            <externalname source="IUPAC">1H</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="17">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="14"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="14" atomtwoindex="16"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="16" atomtwoindex="18"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="0"/>
+      </molecule>
+      <molecule name="GLY">
+        <atomlist numberofatoms="7">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT2" partialcharge="-0.020000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA2</externalname>
+          </atom>
+          <atom index="5" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA3</externalname>
+          </atom>
+          <atom index="6" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="7" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="6">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="6"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="6" atomtwoindex="7"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="6"/>
+      </molecule>
+      <molecule name="HSD">
+        <atomlist numberofatoms="17">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.090000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="NR1" partialcharge="-0.360000">
+            <externalname source="IUPAC">ND1</externalname>
+          </atom>
+          <atom index="9" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="10" name="CPH1" partialcharge="-0.050000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="11" name="CPH2" partialcharge="0.250000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="12" name="HR1" partialcharge="0.130000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="13" name="NR2" partialcharge="-0.700000">
+            <externalname source="IUPAC">NE2</externalname>
+          </atom>
+          <atom index="14" name="CPH1" partialcharge="0.220000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="15" name="HR3" partialcharge="0.100000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="16" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="17" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="17">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="16"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="10" atomtwoindex="14"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="16"/>
+      </molecule>
+      <molecule name="HSE">
+        <atomlist numberofatoms="17">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">HN</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.080000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="NR2" partialcharge="-0.700000">
+            <externalname source="IUPAC">ND1</externalname>
+          </atom>
+          <atom index="9" name="CPH1" partialcharge="0.220000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="10" name="CPH2" partialcharge="0.250000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="11" name="HR1" partialcharge="0.130000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="12" name="NR1" partialcharge="-0.360000">
+            <externalname source="IUPAC">NE2</externalname>
+          </atom>
+          <atom index="13" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="14" name="CPH1" partialcharge="-0.050000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="15" name="HR3" partialcharge="0.090000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="16" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="17" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="17">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="12" atomtwoindex="14"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="16"/>
+          <connection atomoneindex="10" atomtwoindex="12"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="12" atomtwoindex="13"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="9" atomtwoindex="14"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="16"/>
+      </molecule>
+      <molecule name="HSP">
+        <atomlist numberofatoms="18">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">HN</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.050000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CPH1" partialcharge="0.190000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="9" name="HR1" partialcharge="0.130000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="10" name="CPH1" partialcharge="0.190000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="11" name="NR3" partialcharge="-0.510000">
+            <externalname source="IUPAC">NE2</externalname>
+          </atom>
+          <atom index="12" name="H" partialcharge="0.440000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="13" name="NR3" partialcharge="-0.510000">
+            <externalname source="IUPAC">ND1</externalname>
+          </atom>
+          <atom index="14" name="H" partialcharge="0.440000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="15" name="CPH2" partialcharge="0.320000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="16" name="HR2" partialcharge="0.180000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="17" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="18" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="18">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="10"/>
+          <connection atomoneindex="10" atomtwoindex="13"/>
+          <connection atomoneindex="13" atomtwoindex="15"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="17"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+          <connection atomoneindex="17" atomtwoindex="18"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="11" atomtwoindex="15"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="17"/>
+      </molecule>
+      <molecule name="ILE">
+        <atomlist numberofatoms="19">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT1" partialcharge="-0.090000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB</externalname>
+          </atom>
+          <atom index="7" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CG2</externalname>
+          </atom>
+          <atom index="8" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG21</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG22</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG23</externalname>
+          </atom>
+          <atom index="11" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CG1</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG12</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG13</externalname>
+          </atom>
+          <atom index="14" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CD1</externalname>
+          </atom>
+          <atom index="15" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD11</externalname>
+          </atom>
+          <atom index="16" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD12</externalname>
+          </atom>
+          <atom index="17" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD13</externalname>
+          </atom>
+          <atom index="18" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="19" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="18">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="11"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="11" atomtwoindex="14"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="18"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="7" atomtwoindex="9"/>
+          <connection atomoneindex="7" atomtwoindex="10"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="14" atomtwoindex="16"/>
+          <connection atomoneindex="14" atomtwoindex="17"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="18"/>
+      </molecule>
+      <molecule name="LEU">
+        <atomlist numberofatoms="19">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT1" partialcharge="-0.090000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG</externalname>
+          </atom>
+          <atom index="10" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CD1</externalname>
+          </atom>
+          <atom index="11" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD11</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD12</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD13</externalname>
+          </atom>
+          <atom index="14" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="15" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD21</externalname>
+          </atom>
+          <atom index="16" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD22</externalname>
+          </atom>
+          <atom index="17" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD23</externalname>
+          </atom>
+          <atom index="18" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="19" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="18">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="14"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="18"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="10" atomtwoindex="12"/>
+          <connection atomoneindex="10" atomtwoindex="13"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="14" atomtwoindex="16"/>
+          <connection atomoneindex="14" atomtwoindex="17"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="18"/>
+      </molecule>
+      <molecule name="LYS">
+        <atomlist numberofatoms="22">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD3</externalname>
+          </atom>
+          <atom index="14" name="CT2" partialcharge="0.210000">
+            <externalname source="IUPAC">CE</externalname>
+          </atom>
+          <atom index="15" name="HA" partialcharge="0.050000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="16" name="HA" partialcharge="0.050000">
+            <externalname source="IUPAC">HE3</externalname>
+          </atom>
+          <atom index="17" name="NH3" partialcharge="-0.300000">
+            <externalname source="IUPAC">NZ</externalname>
+          </atom>
+          <atom index="18" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">HZ1</externalname>
+          </atom>
+          <atom index="19" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">HZ2</externalname>
+          </atom>
+          <atom index="20" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">HZ3</externalname>
+          </atom>
+          <atom index="21" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="22" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="21">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="14"/>
+          <connection atomoneindex="14" atomtwoindex="17"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="21"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="14" atomtwoindex="16"/>
+          <connection atomoneindex="21" atomtwoindex="22"/>
+          <connection atomoneindex="17" atomtwoindex="18"/>
+          <connection atomoneindex="17" atomtwoindex="19"/>
+          <connection atomoneindex="17" atomtwoindex="20"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="21"/>
+      </molecule>
+      <molecule name="MET">
+        <atomlist numberofatoms="17">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.140000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="S" partialcharge="-0.090000">
+            <externalname source="IUPAC">SD</externalname>
+          </atom>
+          <atom index="12" name="CT3" partialcharge="-0.220000">
+            <externalname source="IUPAC">CE</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="14" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="15" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HE3</externalname>
+          </atom>
+          <atom index="16" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="17" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="16">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="16"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="12" atomtwoindex="13"/>
+          <connection atomoneindex="12" atomtwoindex="14"/>
+          <connection atomoneindex="12" atomtwoindex="15"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="16"/>
+      </molecule>
+      <molecule name="MTT">
+        <atomlist numberofatoms="19">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CT2" partialcharge="-0.140000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="11" name="S" partialcharge="-0.090000">
+            <externalname source="IUPAC">SD</externalname>
+          </atom>
+          <atom index="12" name="CT3" partialcharge="-0.220000">
+            <externalname source="IUPAC">CE</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="14" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="15" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HE3</externalname>
+          </atom>
+          <atom index="16" name="CD" partialcharge="0.750000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="17" name="OH1" partialcharge="-0.630000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="18" name="H" partialcharge="0.440000">
+            <externalname source="IUPAC">HT</externalname>
+          </atom>
+          <atom index="19" name="OB" partialcharge="-0.560000">
+            <externalname source="IUPAC">OXT</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="18">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="16"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="12" atomtwoindex="13"/>
+          <connection atomoneindex="12" atomtwoindex="14"/>
+          <connection atomoneindex="12" atomtwoindex="15"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="18" atomtwoindex="17"/>
+          <connection atomoneindex="19" atomtwoindex="16"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="0"/>
+      </molecule>
+      <molecule name="PHE">
+        <atomlist numberofatoms="20">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CA" partialcharge="0.000000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CD1</externalname>
+          </atom>
+          <atom index="10" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="11" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="12" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="13" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CZ</externalname>
+          </atom>
+          <atom index="14" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HZ</externalname>
+          </atom>
+          <atom index="15" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="16" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="17" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE2</externalname>
+          </atom>
+          <atom index="18" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="19" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="20" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="20">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="15"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="13" atomtwoindex="17"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="19"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="19" atomtwoindex="20"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="15" atomtwoindex="17"/>
+          <connection atomoneindex="17" atomtwoindex="18"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="19"/>
+      </molecule>
+      <molecule name="PRO">
+        <atomlist numberofatoms="14">
+          <atom index="1" name="N" partialcharge="-0.290000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="CP3" partialcharge="0.000000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="4" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD3</externalname>
+          </atom>
+          <atom index="5" name="CP1" partialcharge="0.020000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="6" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="7" name="CP2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="8" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="10" name="CP2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="11" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG3</externalname>
+          </atom>
+          <atom index="13" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="14" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="14">
+          <connection atomoneindex="5" atomtwoindex="13"/>
+          <connection atomoneindex="1" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="7" atomtwoindex="10"/>
+          <connection atomoneindex="2" atomtwoindex="10"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="10" atomtwoindex="12"/>
+          <connection atomoneindex="2" atomtwoindex="3"/>
+          <connection atomoneindex="2" atomtwoindex="4"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="7" atomtwoindex="9"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="13"/>
+      </molecule>
+      <molecule name="SER">
+        <atomlist numberofatoms="11">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="0.050000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="OH1" partialcharge="-0.660000">
+            <externalname source="IUPAC">OG</externalname>
+          </atom>
+          <atom index="9" name="H" partialcharge="0.430000">
+            <externalname source="IUPAC">HG</externalname>
+          </atom>
+          <atom index="10" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="11" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="10">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="10"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="10"/>
+      </molecule>
+      <molecule name="THR">
+        <atomlist numberofatoms="14">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT1" partialcharge="0.140000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB</externalname>
+          </atom>
+          <atom index="7" name="OH1" partialcharge="-0.660000">
+            <externalname source="IUPAC">OG1</externalname>
+          </atom>
+          <atom index="8" name="H" partialcharge="0.430000">
+            <externalname source="IUPAC">HG1</externalname>
+          </atom>
+          <atom index="9" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CG2</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG21</externalname>
+          </atom>
+          <atom index="11" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG22</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG23</externalname>
+          </atom>
+          <atom index="13" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="14" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="13">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="5" atomtwoindex="9"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="13"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="9" atomtwoindex="12"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="13"/>
+      </molecule>
+      <molecule name="TRP">
+        <atomlist numberofatoms="24">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CY" partialcharge="-0.030000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="CA" partialcharge="0.035000">
+            <externalname source="IUPAC">CD1</externalname>
+          </atom>
+          <atom index="10" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="11" name="NY" partialcharge="-0.610000">
+            <externalname source="IUPAC">NE1</externalname>
+          </atom>
+          <atom index="12" name="H" partialcharge="0.380000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="13" name="CPT" partialcharge="0.130000">
+            <externalname source="IUPAC">CE2</externalname>
+          </atom>
+          <atom index="14" name="CPT" partialcharge="-0.020000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="15" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE3</externalname>
+          </atom>
+          <atom index="16" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE3</externalname>
+          </atom>
+          <atom index="17" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CZ3</externalname>
+          </atom>
+          <atom index="18" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HZ3</externalname>
+          </atom>
+          <atom index="19" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CZ2</externalname>
+          </atom>
+          <atom index="20" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HZ2</externalname>
+          </atom>
+          <atom index="21" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CH2</externalname>
+          </atom>
+          <atom index="22" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HH2</externalname>
+          </atom>
+          <atom index="23" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="24" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="25">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="14"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="13" atomtwoindex="19"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="23"/>
+          <connection atomoneindex="17" atomtwoindex="21"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+          <connection atomoneindex="19" atomtwoindex="20"/>
+          <connection atomoneindex="17" atomtwoindex="18"/>
+          <connection atomoneindex="21" atomtwoindex="22"/>
+          <connection atomoneindex="23" atomtwoindex="24"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="15" atomtwoindex="17"/>
+          <connection atomoneindex="19" atomtwoindex="21"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="23"/>
+      </molecule>
+      <molecule name="TYR">
+        <atomlist numberofatoms="21">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CA" partialcharge="0.000000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CD1</externalname>
+          </atom>
+          <atom index="10" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="11" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="12" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="13" name="CA" partialcharge="0.110000">
+            <externalname source="IUPAC">CZ</externalname>
+          </atom>
+          <atom index="14" name="OH1" partialcharge="-0.540000">
+            <externalname source="IUPAC">OH</externalname>
+          </atom>
+          <atom index="15" name="H" partialcharge="0.430000">
+            <externalname source="IUPAC">HH</externalname>
+          </atom>
+          <atom index="16" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="17" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="18" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE2</externalname>
+          </atom>
+          <atom index="19" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="20" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="21" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="21">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="16"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="13" atomtwoindex="18"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="20"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="16" atomtwoindex="18"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="20"/>
+      </molecule>
+      <molecule name="TYN">
+        <atomlist numberofatoms="22">
+          <atom index="1" name="NH3" partialcharge="-0.780000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="HC" partialcharge="0.310000">
+            <externalname source="IUPAC">1H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.180000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="8" name="CA" partialcharge="0.000000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="9" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CD1</externalname>
+          </atom>
+          <atom index="10" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="11" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="12" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="13" name="CA" partialcharge="0.110000">
+            <externalname source="IUPAC">CZ</externalname>
+          </atom>
+          <atom index="14" name="OH1" partialcharge="-0.540000">
+            <externalname source="IUPAC">OH</externalname>
+          </atom>
+          <atom index="15" name="H" partialcharge="0.430000">
+            <externalname source="IUPAC">HH</externalname>
+          </atom>
+          <atom index="16" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="17" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="18" name="CA" partialcharge="-0.115000">
+            <externalname source="IUPAC">CE2</externalname>
+          </atom>
+          <atom index="19" name="HP" partialcharge="0.115000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="20" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="21" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="22" name="HC" partialcharge="0.310000">
+            <externalname source="IUPAC">2H</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="22">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="16"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="13" atomtwoindex="18"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="20"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="16" atomtwoindex="18"/>
+          <connection atomoneindex="22" atomtwoindex="1"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="0"/>
+        <externalconnection direction="Out" atomindex="20"/>
+      </molecule>
+      <molecule name="VAL">
+        <atomlist numberofatoms="16">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">H</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CT1" partialcharge="-0.090000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB</externalname>
+          </atom>
+          <atom index="7" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CG1</externalname>
+          </atom>
+          <atom index="8" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG11</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG12</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG13</externalname>
+          </atom>
+          <atom index="11" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CG2</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG21</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG22</externalname>
+          </atom>
+          <atom index="14" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG23</externalname>
+          </atom>
+          <atom index="15" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="16" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="15">
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="5" atomtwoindex="11"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="15"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="7" atomtwoindex="9"/>
+          <connection atomoneindex="7" atomtwoindex="10"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="14"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="15"/>
+      </molecule>
+      <molecule name="ALAD">
+        <atomlist numberofatoms="22">
+          <atom index="1" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CL</externalname>
+          </atom>
+          <atom index="2" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HL1</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HL2</externalname>
+          </atom>
+          <atom index="4" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HL3</externalname>
+          </atom>
+          <atom index="5" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">CLP</externalname>
+          </atom>
+          <atom index="6" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">OL</externalname>
+          </atom>
+          <atom index="7" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">NL</externalname>
+          </atom>
+          <atom index="8" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">HL</externalname>
+          </atom>
+          <atom index="9" name="CT1" partialcharge="0.070000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="10" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="11" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="12" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB1</externalname>
+          </atom>
+          <atom index="13" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="14" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB3</externalname>
+          </atom>
+          <atom index="15" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">CRP</externalname>
+          </atom>
+          <atom index="16" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">OR</externalname>
+          </atom>
+          <atom index="17" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">NR</externalname>
+          </atom>
+          <atom index="18" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">HR</externalname>
+          </atom>
+          <atom index="19" name="CT3" partialcharge="-0.110000">
+            <externalname source="IUPAC">CR</externalname>
+          </atom>
+          <atom index="20" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HR1</externalname>
+          </atom>
+          <atom index="21" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HR2</externalname>
+          </atom>
+          <atom index="22" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HR3</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="21">
+          <connection atomoneindex="1" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="7" atomtwoindex="9"/>
+          <connection atomoneindex="9" atomtwoindex="15"/>
+          <connection atomoneindex="15" atomtwoindex="17"/>
+          <connection atomoneindex="17" atomtwoindex="19"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="17" atomtwoindex="18"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="14"/>
+          <connection atomoneindex="19" atomtwoindex="20"/>
+          <connection atomoneindex="19" atomtwoindex="21"/>
+          <connection atomoneindex="19" atomtwoindex="22"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="TIP3">
+        <atomlist numberofatoms="3">
+          <atom index="1" name="OT" partialcharge="-0.834000">
+            <externalname source="IUPAC">OH2</externalname>
+          </atom>
+          <atom index="2" name="HT" partialcharge="0.417000">
+            <externalname source="IUPAC">H1</externalname>
+          </atom>
+          <atom index="3" name="HT" partialcharge="0.417000">
+            <externalname source="IUPAC">H2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="3">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="2" atomtwoindex="3"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="HOH">
+        <atomlist numberofatoms="3">
+          <atom index="1" name="OT" partialcharge="-0.834000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="2" name="HT" partialcharge="0.417000">
+            <externalname source="IUPAC">H1</externalname>
+          </atom>
+          <atom index="3" name="HT" partialcharge="0.417000">
+            <externalname source="IUPAC">H2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="2">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="TP3M">
+        <atomlist numberofatoms="3">
+          <atom index="1" name="OT" partialcharge="-0.834000">
+            <externalname source="IUPAC">OH2</externalname>
+          </atom>
+          <atom index="2" name="HT" partialcharge="0.417000">
+            <externalname source="IUPAC">H1</externalname>
+          </atom>
+          <atom index="3" name="HT" partialcharge="0.417000">
+            <externalname source="IUPAC">H2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="2">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="SOD">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="SOD" partialcharge="1.000000">
+            <externalname source="IUPAC">SOD</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="MG">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="MG" partialcharge="2.000000">
+            <externalname source="IUPAC">MG</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="POT">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="POT" partialcharge="1.000000">
+            <externalname source="IUPAC">POT</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="CES">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="CES" partialcharge="1.000000">
+            <externalname source="IUPAC">CES</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="CAL">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="CAL" partialcharge="2.000000">
+            <externalname source="IUPAC">CAL</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="CLA">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="CLA" partialcharge="-1.000000">
+            <externalname source="IUPAC">CLA</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="ZN2">
+        <atomlist numberofatoms="1">
+          <atom index="1" name="ZN" partialcharge="2.000000">
+            <externalname source="IUPAC">ZN</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="NTER">
+        <atomlist numberofatoms="6">
+          <atom index="1" name="NH3" partialcharge="-0.300000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">H1</externalname>
+          </atom>
+          <atom index="3" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">H2</externalname>
+          </atom>
+          <atom index="4" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">H3</externalname>
+          </atom>
+          <atom index="5" name="CT1" partialcharge="0.210000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="6" name="HB" partialcharge="0.100000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="3">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="GLYP">
+        <atomlist numberofatoms="7">
+          <atom index="1" name="NH3" partialcharge="-0.300000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">HT1</externalname>
+          </atom>
+          <atom index="3" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">HT2</externalname>
+          </atom>
+          <atom index="4" name="HC" partialcharge="0.330000">
+            <externalname source="IUPAC">HT3</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="0.130000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="6" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA1</externalname>
+          </atom>
+          <atom index="7" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="3">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="PROP">
+        <atomlist numberofatoms="8">
+          <atom index="1" name="NP" partialcharge="-0.070000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="HC" partialcharge="0.240000">
+            <externalname source="IUPAC">HN1</externalname>
+          </atom>
+          <atom index="3" name="HC" partialcharge="0.240000">
+            <externalname source="IUPAC">HN2</externalname>
+          </atom>
+          <atom index="4" name="CP3" partialcharge="0.160000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="5" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD1</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+          <atom index="7" name="CP1" partialcharge="0.160000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="8" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="2">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="ACE">
+        <atomlist numberofatoms="6">
+          <atom index="1" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CAY</externalname>
+          </atom>
+          <atom index="2" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HY1</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HY2</externalname>
+          </atom>
+          <atom index="4" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HY3</externalname>
+          </atom>
+          <atom index="5" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">CY</externalname>
+          </atom>
+          <atom index="6" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">OY</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="6">
+          <connection atomoneindex="1" atomtwoindex="5"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="0"/>
+        <externalconnection direction="Out" atomindex="5"/>
+      </molecule>
+      <molecule name="ACP">
+        <atomlist numberofatoms="6">
+          <atom index="1" name="CT3" partialcharge="-0.270000">
+            <externalname source="IUPAC">CAY</externalname>
+          </atom>
+          <atom index="2" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HY1</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HY2</externalname>
+          </atom>
+          <atom index="4" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HY3</externalname>
+          </atom>
+          <atom index="5" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">CY</externalname>
+          </atom>
+          <atom index="6" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">OY</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="6">
+          <connection atomoneindex="1" atomtwoindex="5"/>
+          <connection/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="CTER">
+        <atomlist numberofatoms="3">
+          <atom index="1" name="CC" partialcharge="0.340000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="2" name="OC" partialcharge="-0.670000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="3" name="OC" partialcharge="-0.670000">
+            <externalname source="IUPAC">OXT</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="2">
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="2"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="CT1">
+        <atomlist numberofatoms="11">
+          <atom index="1" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">N</externalname>
+          </atom>
+          <atom index="2" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">HN</externalname>
+          </atom>
+          <atom index="3" name="CT1" partialcharge="0.170000">
+            <externalname source="IUPAC">CA</externalname>
+          </atom>
+          <atom index="4" name="HB" partialcharge="0.090000">
+            <externalname source="IUPAC">HA</externalname>
+          </atom>
+          <atom index="5" name="CD" partialcharge="0.630000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="6" name="OB" partialcharge="-0.520000">
+            <externalname source="IUPAC">OT1</externalname>
+          </atom>
+          <atom index="7" name="OS" partialcharge="-0.340000">
+            <externalname source="IUPAC">OT2</externalname>
+          </atom>
+          <atom index="8" name="CT3" partialcharge="-0.140000">
+            <externalname source="IUPAC">CT</externalname>
+          </atom>
+          <atom index="9" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HT1</externalname>
+          </atom>
+          <atom index="10" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HT2</externalname>
+          </atom>
+          <atom index="11" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HT3</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="6">
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="CT2">
+        <atomlist numberofatoms="5">
+          <atom index="1" name="CC" partialcharge="0.550000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="2" name="O" partialcharge="-0.550000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="3" name="NH2" partialcharge="-0.620000">
+            <externalname source="IUPAC">NT</externalname>
+          </atom>
+          <atom index="4" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">HT1</externalname>
+          </atom>
+          <atom index="5" name="H" partialcharge="0.300000">
+            <externalname source="IUPAC">HT2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="3">
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="3" atomtwoindex="5"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="CT3">
+        <atomlist numberofatoms="8">
+          <atom index="1" name="C" partialcharge="0.510000">
+            <externalname source="IUPAC">C</externalname>
+          </atom>
+          <atom index="2" name="O" partialcharge="-0.510000">
+            <externalname source="IUPAC">O</externalname>
+          </atom>
+          <atom index="3" name="NH1" partialcharge="-0.470000">
+            <externalname source="IUPAC">NT</externalname>
+          </atom>
+          <atom index="4" name="H" partialcharge="0.310000">
+            <externalname source="IUPAC">HNT</externalname>
+          </atom>
+          <atom index="5" name="CT3" partialcharge="-0.110000">
+            <externalname source="IUPAC">CAT</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HT1</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HT2</externalname>
+          </atom>
+          <atom index="8" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HT3</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="6">
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="ASPP">
+        <atomlist numberofatoms="7">
+          <atom index="1" name="CT2" partialcharge="-0.210000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="2" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB1</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="4" name="CD" partialcharge="0.750000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="5" name="OB" partialcharge="-0.550000">
+            <externalname source="IUPAC">OD1</externalname>
+          </atom>
+          <atom index="6" name="OH1" partialcharge="-0.610000">
+            <externalname source="IUPAC">OD2</externalname>
+          </atom>
+          <atom index="7" name="H" partialcharge="0.440000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="6" atomtwoindex="7"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="GLUP">
+        <atomlist numberofatoms="7">
+          <atom index="1" name="CT2" partialcharge="-0.210000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="2" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG1</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HG2</externalname>
+          </atom>
+          <atom index="4" name="CD" partialcharge="0.750000">
+            <externalname source="IUPAC">CD</externalname>
+          </atom>
+          <atom index="5" name="OB" partialcharge="-0.550000">
+            <externalname source="IUPAC">OE1</externalname>
+          </atom>
+          <atom index="6" name="OH1" partialcharge="-0.610000">
+            <externalname source="IUPAC">OE2</externalname>
+          </atom>
+          <atom index="7" name="H" partialcharge="0.440000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="6" atomtwoindex="7"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="LSN">
+        <atomlist numberofatoms="6">
+          <atom index="1" name="CT2" partialcharge="0.130000">
+            <externalname source="IUPAC">CE</externalname>
+          </atom>
+          <atom index="2" name="HA" partialcharge="0.075000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="3" name="HA" partialcharge="0.075000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="4" name="NH2" partialcharge="-0.960000">
+            <externalname source="IUPAC">NZ</externalname>
+          </atom>
+          <atom index="5" name="HC" partialcharge="0.340000">
+            <externalname source="IUPAC">HZ1</externalname>
+          </atom>
+          <atom index="6" name="HC" partialcharge="0.340000">
+            <externalname source="IUPAC">HZ2</externalname>
+          </atom>
+        </atomlist>
+      </molecule>
+      <molecule name="DISU">
+        <atomlist numberofatoms="4">
+          <atom index="1" name="CT2" partialcharge="-0.100000">
+            <externalname source="IUPAC">1CB</externalname>
+          </atom>
+          <atom index="2" name="SM" partialcharge="-0.080000">
+            <externalname source="IUPAC">1SG</externalname>
+          </atom>
+          <atom index="3" name="SM" partialcharge="-0.080000">
+            <externalname source="IUPAC">2SG</externalname>
+          </atom>
+          <atom index="4" name="CT2" partialcharge="-0.100000">
+            <externalname source="IUPAC">2CB</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="2" atomtwoindex="3"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="HS2">
+        <atomlist numberofatoms="11">
+          <atom index="1" name="CPH2" partialcharge="0.250000">
+            <externalname source="IUPAC">CE1</externalname>
+          </atom>
+          <atom index="2" name="HR1" partialcharge="0.130000">
+            <externalname source="IUPAC">HE1</externalname>
+          </atom>
+          <atom index="3" name="NR2" partialcharge="-0.700000">
+            <externalname source="IUPAC">ND1</externalname>
+          </atom>
+          <atom index="4" name="CPH1" partialcharge="0.220000">
+            <externalname source="IUPAC">CG</externalname>
+          </atom>
+          <atom index="5" name="CT2" partialcharge="-0.080000">
+            <externalname source="IUPAC">CB</externalname>
+          </atom>
+          <atom index="6" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB1</externalname>
+          </atom>
+          <atom index="7" name="HA" partialcharge="0.090000">
+            <externalname source="IUPAC">HB2</externalname>
+          </atom>
+          <atom index="8" name="NR1" partialcharge="-0.360000">
+            <externalname source="IUPAC">NE2</externalname>
+          </atom>
+          <atom index="9" name="H" partialcharge="0.320000">
+            <externalname source="IUPAC">HE2</externalname>
+          </atom>
+          <atom index="10" name="CPH1" partialcharge="-0.050000">
+            <externalname source="IUPAC">CD2</externalname>
+          </atom>
+          <atom index="11" name="HR3" partialcharge="0.090000">
+            <externalname source="IUPAC">HD2</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="8" atomtwoindex="9"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="GUA">
+        <atomlist numberofatoms="34">
+          <atom index="1" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="2" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="3" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="4" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="5" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="6" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="8" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="9" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="10" name="ON6B" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="11" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="12" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="13" name="NN2B" partialcharge="-0.020000">
+            <externalname source="IUPAC">N9</externalname>
+          </atom>
+          <atom index="14" name="CN5" partialcharge="0.260000">
+            <externalname source="IUPAC">C4</externalname>
+          </atom>
+          <atom index="15" name="NN1" partialcharge="-0.680000">
+            <externalname source="IUPAC">N2</externalname>
+          </atom>
+          <atom index="16" name="HN1" partialcharge="0.320000">
+            <externalname source="IUPAC">H21</externalname>
+          </atom>
+          <atom index="17" name="HN1" partialcharge="0.350000">
+            <externalname source="IUPAC">H22</externalname>
+          </atom>
+          <atom index="18" name="NN3G" partialcharge="-0.740000">
+            <externalname source="IUPAC">N3</externalname>
+          </atom>
+          <atom index="19" name="CN2" partialcharge="0.750000">
+            <externalname source="IUPAC">C2</externalname>
+          </atom>
+          <atom index="20" name="NN2G" partialcharge="-0.340000">
+            <externalname source="IUPAC">N1</externalname>
+          </atom>
+          <atom index="21" name="HN2" partialcharge="0.260000">
+            <externalname source="IUPAC">H1</externalname>
+          </atom>
+          <atom index="22" name="CN1" partialcharge="0.540000">
+            <externalname source="IUPAC">C6</externalname>
+          </atom>
+          <atom index="23" name="ON1" partialcharge="-0.510000">
+            <externalname source="IUPAC">O6</externalname>
+          </atom>
+          <atom index="24" name="CN5G" partialcharge="0.000000">
+            <externalname source="IUPAC">C5</externalname>
+          </atom>
+          <atom index="25" name="NN4" partialcharge="-0.600000">
+            <externalname source="IUPAC">N7</externalname>
+          </atom>
+          <atom index="26" name="CN4" partialcharge="0.250000">
+            <externalname source="IUPAC">C8</externalname>
+          </atom>
+          <atom index="27" name="HN3" partialcharge="0.160000">
+            <externalname source="IUPAC">H8</externalname>
+          </atom>
+          <atom index="28" name="CN7B" partialcharge="0.140000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="29" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+          <atom index="30" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O2'</externalname>
+          </atom>
+          <atom index="31" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="32" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="33" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="34" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="36">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="4" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="32"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="28"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="13" atomtwoindex="26"/>
+          <connection atomoneindex="14" atomtwoindex="18"/>
+          <connection atomoneindex="15" atomtwoindex="19"/>
+          <connection atomoneindex="19" atomtwoindex="20"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+          <connection atomoneindex="15" atomtwoindex="17"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+          <connection atomoneindex="20" atomtwoindex="22"/>
+          <connection atomoneindex="22" atomtwoindex="24"/>
+          <connection atomoneindex="24" atomtwoindex="25"/>
+          <connection atomoneindex="28" atomtwoindex="32"/>
+          <connection atomoneindex="32" atomtwoindex="34"/>
+          <connection atomoneindex="28" atomtwoindex="30"/>
+          <connection atomoneindex="30" atomtwoindex="31"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="28" atomtwoindex="29"/>
+          <connection atomoneindex="32" atomtwoindex="33"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="26" atomtwoindex="27"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="14" atomtwoindex="24"/>
+          <connection atomoneindex="25" atomtwoindex="26"/>
+          <connection atomoneindex="22" atomtwoindex="23"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="34"/>
+      </molecule>
+      <molecule name="ADE">
+        <atomlist numberofatoms="33">
+          <atom index="1" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="2" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="3" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="4" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="5" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="6" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="8" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="9" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="10" name="ON6B" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="11" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="12" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="13" name="NN2" partialcharge="-0.050000">
+            <externalname source="IUPAC">N9</externalname>
+          </atom>
+          <atom index="14" name="CN5" partialcharge="0.280000">
+            <externalname source="IUPAC">C5</externalname>
+          </atom>
+          <atom index="15" name="NN4" partialcharge="-0.710000">
+            <externalname source="IUPAC">N7</externalname>
+          </atom>
+          <atom index="16" name="CN4" partialcharge="0.340000">
+            <externalname source="IUPAC">C8</externalname>
+          </atom>
+          <atom index="17" name="HN3" partialcharge="0.120000">
+            <externalname source="IUPAC">H8</externalname>
+          </atom>
+          <atom index="18" name="NN3A" partialcharge="-0.740000">
+            <externalname source="IUPAC">N1</externalname>
+          </atom>
+          <atom index="19" name="CN4" partialcharge="0.500000">
+            <externalname source="IUPAC">C2</externalname>
+          </atom>
+          <atom index="20" name="HN3" partialcharge="0.130000">
+            <externalname source="IUPAC">H2</externalname>
+          </atom>
+          <atom index="21" name="NN3A" partialcharge="-0.750000">
+            <externalname source="IUPAC">N3</externalname>
+          </atom>
+          <atom index="22" name="CN5" partialcharge="0.430000">
+            <externalname source="IUPAC">C4</externalname>
+          </atom>
+          <atom index="23" name="CN2" partialcharge="0.460000">
+            <externalname source="IUPAC">C6</externalname>
+          </atom>
+          <atom index="24" name="NN1" partialcharge="-0.770000">
+            <externalname source="IUPAC">N6</externalname>
+          </atom>
+          <atom index="25" name="HN1" partialcharge="0.380000">
+            <externalname source="IUPAC">H61</externalname>
+          </atom>
+          <atom index="26" name="HN1" partialcharge="0.380000">
+            <externalname source="IUPAC">H62</externalname>
+          </atom>
+          <atom index="27" name="CN7B" partialcharge="0.140000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="28" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+          <atom index="29" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O2'</externalname>
+          </atom>
+          <atom index="30" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="31" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="32" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="33" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="35">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="4" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="31"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="27"/>
+          <connection atomoneindex="13" atomtwoindex="22"/>
+          <connection atomoneindex="13" atomtwoindex="16"/>
+          <connection atomoneindex="21" atomtwoindex="22"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="23" atomtwoindex="24"/>
+          <connection atomoneindex="24" atomtwoindex="25"/>
+          <connection atomoneindex="24" atomtwoindex="26"/>
+          <connection atomoneindex="14" atomtwoindex="23"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="27" atomtwoindex="31"/>
+          <connection atomoneindex="27" atomtwoindex="29"/>
+          <connection atomoneindex="29" atomtwoindex="30"/>
+          <connection atomoneindex="31" atomtwoindex="33"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="27" atomtwoindex="28"/>
+          <connection atomoneindex="31" atomtwoindex="32"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="19" atomtwoindex="20"/>
+          <connection atomoneindex="18" atomtwoindex="23"/>
+          <connection atomoneindex="19" atomtwoindex="21"/>
+          <connection atomoneindex="14" atomtwoindex="22"/>
+          <connection atomoneindex="15" atomtwoindex="16"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="33"/>
+      </molecule>
+      <molecule name="CYT">
+        <atomlist numberofatoms="31">
+          <atom index="1" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="2" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="3" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="4" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="5" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="6" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="8" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="9" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="10" name="ON6B" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="11" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="12" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="13" name="NN2" partialcharge="-0.130000">
+            <externalname source="IUPAC">N1</externalname>
+          </atom>
+          <atom index="14" name="CN3" partialcharge="0.050000">
+            <externalname source="IUPAC">C6</externalname>
+          </atom>
+          <atom index="15" name="HN3" partialcharge="0.170000">
+            <externalname source="IUPAC">H6</externalname>
+          </atom>
+          <atom index="16" name="CN3" partialcharge="-0.130000">
+            <externalname source="IUPAC">C5</externalname>
+          </atom>
+          <atom index="17" name="HN3" partialcharge="0.070000">
+            <externalname source="IUPAC">H5</externalname>
+          </atom>
+          <atom index="18" name="CN1" partialcharge="0.520000">
+            <externalname source="IUPAC">C2</externalname>
+          </atom>
+          <atom index="19" name="ON1C" partialcharge="-0.490000">
+            <externalname source="IUPAC">O2</externalname>
+          </atom>
+          <atom index="20" name="NN3" partialcharge="-0.660000">
+            <externalname source="IUPAC">N3</externalname>
+          </atom>
+          <atom index="21" name="CN2" partialcharge="0.650000">
+            <externalname source="IUPAC">C4</externalname>
+          </atom>
+          <atom index="22" name="NN1" partialcharge="-0.750000">
+            <externalname source="IUPAC">N4</externalname>
+          </atom>
+          <atom index="23" name="HN1" partialcharge="0.370000">
+            <externalname source="IUPAC">H41</externalname>
+          </atom>
+          <atom index="24" name="HN1" partialcharge="0.330000">
+            <externalname source="IUPAC">H42</externalname>
+          </atom>
+          <atom index="25" name="CN7B" partialcharge="0.140000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="26" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+          <atom index="27" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O2'</externalname>
+          </atom>
+          <atom index="28" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="29" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="30" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="31" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="32">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="4" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="29"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="25"/>
+          <connection atomoneindex="13" atomtwoindex="18"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="18" atomtwoindex="20"/>
+          <connection atomoneindex="21" atomtwoindex="22"/>
+          <connection atomoneindex="22" atomtwoindex="23"/>
+          <connection atomoneindex="22" atomtwoindex="24"/>
+          <connection atomoneindex="16" atomtwoindex="21"/>
+          <connection atomoneindex="25" atomtwoindex="29"/>
+          <connection atomoneindex="29" atomtwoindex="31"/>
+          <connection atomoneindex="25" atomtwoindex="27"/>
+          <connection atomoneindex="27" atomtwoindex="28"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="25" atomtwoindex="26"/>
+          <connection atomoneindex="29" atomtwoindex="30"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="14" atomtwoindex="16"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="31"/>
+      </molecule>
+      <molecule name="THY">
+        <atomlist numberofatoms="33">
+          <atom index="1" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="2" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="3" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="4" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="5" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="6" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="8" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="9" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="10" name="ON6B" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="11" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="12" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="13" name="NN2B" partialcharge="-0.340000">
+            <externalname source="IUPAC">N1</externalname>
+          </atom>
+          <atom index="14" name="CN3" partialcharge="0.170000">
+            <externalname source="IUPAC">C6</externalname>
+          </atom>
+          <atom index="15" name="HN3" partialcharge="0.170000">
+            <externalname source="IUPAC">H6</externalname>
+          </atom>
+          <atom index="16" name="CN1T" partialcharge="0.510000">
+            <externalname source="IUPAC">C2</externalname>
+          </atom>
+          <atom index="17" name="ON1" partialcharge="-0.410000">
+            <externalname source="IUPAC">O2</externalname>
+          </atom>
+          <atom index="18" name="NN2U" partialcharge="-0.460000">
+            <externalname source="IUPAC">N3</externalname>
+          </atom>
+          <atom index="19" name="HN2" partialcharge="0.360000">
+            <externalname source="IUPAC">H3</externalname>
+          </atom>
+          <atom index="20" name="CN1" partialcharge="0.500000">
+            <externalname source="IUPAC">C4</externalname>
+          </atom>
+          <atom index="21" name="ON1" partialcharge="-0.450000">
+            <externalname source="IUPAC">O4</externalname>
+          </atom>
+          <atom index="22" name="CN3T" partialcharge="-0.150000">
+            <externalname source="IUPAC">C5</externalname>
+          </atom>
+          <atom index="23" name="CN9" partialcharge="-0.110000">
+            <externalname source="IUPAC">C5M</externalname>
+          </atom>
+          <atom index="24" name="HN9" partialcharge="0.070000">
+            <externalname source="IUPAC">H51</externalname>
+          </atom>
+          <atom index="25" name="HN9" partialcharge="0.070000">
+            <externalname source="IUPAC">H52</externalname>
+          </atom>
+          <atom index="26" name="HN9" partialcharge="0.070000">
+            <externalname source="IUPAC">H53</externalname>
+          </atom>
+          <atom index="27" name="CN7B" partialcharge="0.140000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="28" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+          <atom index="29" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O2'</externalname>
+          </atom>
+          <atom index="30" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="31" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="32" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="33" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="34">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="4" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="31"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="27"/>
+          <connection atomoneindex="13" atomtwoindex="16"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="16" atomtwoindex="18"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="18" atomtwoindex="20"/>
+          <connection atomoneindex="20" atomtwoindex="22"/>
+          <connection atomoneindex="22" atomtwoindex="23"/>
+          <connection atomoneindex="27" atomtwoindex="31"/>
+          <connection atomoneindex="31" atomtwoindex="33"/>
+          <connection atomoneindex="27" atomtwoindex="29"/>
+          <connection atomoneindex="29" atomtwoindex="30"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="27" atomtwoindex="28"/>
+          <connection atomoneindex="31" atomtwoindex="32"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="23" atomtwoindex="24"/>
+          <connection atomoneindex="23" atomtwoindex="25"/>
+          <connection atomoneindex="23" atomtwoindex="26"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+          <connection atomoneindex="14" atomtwoindex="22"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="33"/>
+      </molecule>
+      <molecule name="URA">
+        <atomlist numberofatoms="30">
+          <atom index="1" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="2" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="3" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="4" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="5" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="6" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="8" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="9" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="10" name="ON6B" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="11" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="12" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="13" name="NN2B" partialcharge="-0.340000">
+            <externalname source="IUPAC">N1</externalname>
+          </atom>
+          <atom index="14" name="CN3" partialcharge="0.200000">
+            <externalname source="IUPAC">C6</externalname>
+          </atom>
+          <atom index="15" name="HN3" partialcharge="0.140000">
+            <externalname source="IUPAC">H6</externalname>
+          </atom>
+          <atom index="16" name="CN1T" partialcharge="0.550000">
+            <externalname source="IUPAC">C2</externalname>
+          </atom>
+          <atom index="17" name="ON1" partialcharge="-0.450000">
+            <externalname source="IUPAC">O2</externalname>
+          </atom>
+          <atom index="18" name="NN2U" partialcharge="-0.460000">
+            <externalname source="IUPAC">N3</externalname>
+          </atom>
+          <atom index="19" name="HN2" partialcharge="0.360000">
+            <externalname source="IUPAC">H3</externalname>
+          </atom>
+          <atom index="20" name="CN1" partialcharge="0.530000">
+            <externalname source="IUPAC">C4</externalname>
+          </atom>
+          <atom index="21" name="ON1" partialcharge="-0.480000">
+            <externalname source="IUPAC">O4</externalname>
+          </atom>
+          <atom index="22" name="CN3" partialcharge="-0.150000">
+            <externalname source="IUPAC">C5</externalname>
+          </atom>
+          <atom index="23" name="HN3" partialcharge="0.100000">
+            <externalname source="IUPAC">H5</externalname>
+          </atom>
+          <atom index="24" name="CN7B" partialcharge="0.140000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="25" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+          <atom index="26" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O2'</externalname>
+          </atom>
+          <atom index="27" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="28" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="29" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="30" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="31">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+          <connection atomoneindex="1" atomtwoindex="3"/>
+          <connection atomoneindex="1" atomtwoindex="4"/>
+          <connection atomoneindex="4" atomtwoindex="5"/>
+          <connection atomoneindex="5" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="28"/>
+          <connection atomoneindex="10" atomtwoindex="11"/>
+          <connection atomoneindex="11" atomtwoindex="13"/>
+          <connection atomoneindex="11" atomtwoindex="24"/>
+          <connection atomoneindex="13" atomtwoindex="16"/>
+          <connection atomoneindex="13" atomtwoindex="14"/>
+          <connection atomoneindex="16" atomtwoindex="18"/>
+          <connection atomoneindex="18" atomtwoindex="19"/>
+          <connection atomoneindex="18" atomtwoindex="20"/>
+          <connection atomoneindex="20" atomtwoindex="22"/>
+          <connection atomoneindex="24" atomtwoindex="28"/>
+          <connection atomoneindex="28" atomtwoindex="30"/>
+          <connection atomoneindex="24" atomtwoindex="26"/>
+          <connection atomoneindex="26" atomtwoindex="27"/>
+          <connection atomoneindex="11" atomtwoindex="12"/>
+          <connection atomoneindex="24" atomtwoindex="25"/>
+          <connection atomoneindex="28" atomtwoindex="29"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="5" atomtwoindex="6"/>
+          <connection atomoneindex="5" atomtwoindex="7"/>
+          <connection atomoneindex="22" atomtwoindex="23"/>
+          <connection atomoneindex="14" atomtwoindex="15"/>
+          <connection atomoneindex="16" atomtwoindex="17"/>
+          <connection atomoneindex="20" atomtwoindex="21"/>
+          <connection atomoneindex="14" atomtwoindex="22"/>
+        </connectivitymatrix>
+        <externalconnection direction="In" atomindex="1"/>
+        <externalconnection direction="Out" atomindex="30"/>
+      </molecule>
+      <molecule name="DEO1">
+        <atomlist numberofatoms="8">
+          <atom index="1" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="2" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="3" name="ON6" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="4" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="5" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="6" name="CN8" partialcharge="-0.180000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="8" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="6" atomtwoindex="7"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="DEO2">
+        <atomlist numberofatoms="8">
+          <atom index="1" name="CN7" partialcharge="0.160000">
+            <externalname source="IUPAC">C4'</externalname>
+          </atom>
+          <atom index="2" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H4'</externalname>
+          </atom>
+          <atom index="3" name="ON6" partialcharge="-0.500000">
+            <externalname source="IUPAC">O4'</externalname>
+          </atom>
+          <atom index="4" name="CN7B" partialcharge="0.160000">
+            <externalname source="IUPAC">C1'</externalname>
+          </atom>
+          <atom index="5" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H1'</externalname>
+          </atom>
+          <atom index="6" name="CN8" partialcharge="-0.180000">
+            <externalname source="IUPAC">C2'</externalname>
+          </atom>
+          <atom index="7" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H2'</externalname>
+          </atom>
+          <atom index="8" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H2''</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="6" atomtwoindex="7"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="5TER">
+        <atomlist numberofatoms="5">
+          <atom index="1" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H5T</externalname>
+          </atom>
+          <atom index="2" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="3" name="CN8B" partialcharge="0.050000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="4" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="5" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="1" atomtwoindex="2"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="5MET">
+        <atomlist numberofatoms="4">
+          <atom index="1" name="CN9" partialcharge="-0.270000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="2" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="3" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="4" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H53'</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="1" atomtwoindex="4"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="5PHO">
+        <atomlist numberofatoms="9">
+          <atom index="1" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="2" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="3" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="4" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="5" name="ON3" partialcharge="-0.820000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="6" name="ON3" partialcharge="-0.820000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="7" name="ON2" partialcharge="-0.620000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="8" name="ON4" partialcharge="-0.680000">
+            <externalname source="IUPAC">O5T</externalname>
+          </atom>
+          <atom index="9" name="HN4" partialcharge="0.340000">
+            <externalname source="IUPAC">H5T</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="2">
+          <connection atomoneindex="4" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="5POM">
+        <atomlist numberofatoms="12">
+          <atom index="1" name="CN8B" partialcharge="-0.080000">
+            <externalname source="IUPAC">C5'</externalname>
+          </atom>
+          <atom index="2" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5'</externalname>
+          </atom>
+          <atom index="3" name="HN8" partialcharge="0.090000">
+            <externalname source="IUPAC">H5''</externalname>
+          </atom>
+          <atom index="4" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P</externalname>
+          </atom>
+          <atom index="5" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P</externalname>
+          </atom>
+          <atom index="6" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P</externalname>
+          </atom>
+          <atom index="7" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5'</externalname>
+          </atom>
+          <atom index="8" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O5T</externalname>
+          </atom>
+          <atom index="9" name="CN9" partialcharge="-0.170000">
+            <externalname source="IUPAC">C5T</externalname>
+          </atom>
+          <atom index="10" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H5T1</externalname>
+          </atom>
+          <atom index="11" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H5T2</externalname>
+          </atom>
+          <atom index="12" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H5T3</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="5">
+          <connection atomoneindex="4" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="9" atomtwoindex="10"/>
+          <connection atomoneindex="9" atomtwoindex="11"/>
+          <connection atomoneindex="9" atomtwoindex="12"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="3TER">
+        <atomlist numberofatoms="4">
+          <atom index="1" name="CN7" partialcharge="0.140000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="2" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="3" name="ON5" partialcharge="-0.660000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+          <atom index="4" name="HN5" partialcharge="0.430000">
+            <externalname source="IUPAC">H3T</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="1">
+          <connection atomoneindex="3" atomtwoindex="4"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="3PHO">
+        <atomlist numberofatoms="8">
+          <atom index="1" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="2" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="3" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P3</externalname>
+          </atom>
+          <atom index="4" name="ON3" partialcharge="-0.820000">
+            <externalname source="IUPAC">O1P3</externalname>
+          </atom>
+          <atom index="5" name="ON3" partialcharge="-0.820000">
+            <externalname source="IUPAC">O2P3</externalname>
+          </atom>
+          <atom index="6" name="ON2" partialcharge="-0.620000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+          <atom index="7" name="ON4" partialcharge="-0.680000">
+            <externalname source="IUPAC">O3T</externalname>
+          </atom>
+          <atom index="8" name="HN4" partialcharge="0.340000">
+            <externalname source="IUPAC">H3T</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="5">
+          <connection atomoneindex="3" atomtwoindex="6"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="3" atomtwoindex="7"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="3POM">
+        <atomlist numberofatoms="11">
+          <atom index="1" name="CN7" partialcharge="0.010000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="2" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="3" name="P" partialcharge="1.500000">
+            <externalname source="IUPAC">P3</externalname>
+          </atom>
+          <atom index="4" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O1P3</externalname>
+          </atom>
+          <atom index="5" name="ON3" partialcharge="-0.780000">
+            <externalname source="IUPAC">O2P3</externalname>
+          </atom>
+          <atom index="6" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+          <atom index="7" name="ON2" partialcharge="-0.570000">
+            <externalname source="IUPAC">O3T</externalname>
+          </atom>
+          <atom index="8" name="CN9" partialcharge="-0.170000">
+            <externalname source="IUPAC">C3T</externalname>
+          </atom>
+          <atom index="9" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H3T1</externalname>
+          </atom>
+          <atom index="10" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H3T2</externalname>
+          </atom>
+          <atom index="11" name="HN9" partialcharge="0.090000">
+            <externalname source="IUPAC">H3T3</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="8">
+          <connection atomoneindex="3" atomtwoindex="6"/>
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="3" atomtwoindex="7"/>
+          <connection atomoneindex="7" atomtwoindex="8"/>
+          <connection atomoneindex="8" atomtwoindex="9"/>
+          <connection atomoneindex="8" atomtwoindex="10"/>
+          <connection atomoneindex="8" atomtwoindex="11"/>
+        </connectivitymatrix>
+      </molecule>
+      <molecule name="3PO3">
+        <atomlist numberofatoms="7">
+          <atom index="1" name="CN7" partialcharge="-0.090000">
+            <externalname source="IUPAC">C3'</externalname>
+          </atom>
+          <atom index="2" name="HN7" partialcharge="0.090000">
+            <externalname source="IUPAC">H3'</externalname>
+          </atom>
+          <atom index="3" name="P" partialcharge="1.100000">
+            <externalname source="IUPAC">P3</externalname>
+          </atom>
+          <atom index="4" name="ON2" partialcharge="-0.400000">
+            <externalname source="IUPAC">O3'</externalname>
+          </atom>
+          <atom index="5" name="ON3" partialcharge="-0.900000">
+            <externalname source="IUPAC">O1P3</externalname>
+          </atom>
+          <atom index="6" name="ON3" partialcharge="-0.900000">
+            <externalname source="IUPAC">O2P3</externalname>
+          </atom>
+          <atom index="7" name="ON3" partialcharge="-0.900000">
+            <externalname source="IUPAC">O3P3</externalname>
+          </atom>
+        </atomlist>
+        <connectivitymatrix numberofconnections="4">
+          <connection atomoneindex="3" atomtwoindex="4"/>
+          <connection atomoneindex="3" atomtwoindex="5"/>
+          <connection atomoneindex="3" atomtwoindex="6"/>
+          <connection atomoneindex="3" atomtwoindex="7"/>
+        </connectivitymatrix>
+      </molecule>
+    </moleculeclass>
+  </body>
+</topologyfile>

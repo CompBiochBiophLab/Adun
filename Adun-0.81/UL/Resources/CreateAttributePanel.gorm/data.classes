@@ -1,0 +1,31 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "changedMatrixSelection:",
+	    "createAttributeFile:",
+	    "export:",
+	    "openAttributeWindow:"
+	);
+	Super = NSObject;
+    };
+    ULExportController = {
+	Actions = (
+	    "changedMatrixSelection:",
+	    "createAttributeFile:",
+	    "export:",
+	    "openAttributeWindow:"
+	);
+	Outlets = (
+	    atomButton,
+	    atomColumnList,
+	    attributeColumnList,
+	    attributeWindow,
+	    matrixList,
+	    nameField,
+	    relationshipList,
+	    residueColumnList
+	);
+	Super = NSObject;
+    };
+}
